@@ -383,7 +383,7 @@ Use these replacements:
 <div class="image-scroll">
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-1.webp">
+<img src="images/hobbog-saltwillow/HobBog-Female-1.webp">
 <h3>Reed Gatherer</h3>
 <p>A young Salt-Willow gatherer carrying roots, reeds, and marsh plants gathered from the shallow wetlands around her home.</p>
 </div>

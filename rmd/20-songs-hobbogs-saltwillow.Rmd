@@ -1,0 +1,325 @@
+
+```{r , include=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+### Songs of Salt-Willow
+
+
+#### Introduction
+
+Music occupies a central place in the cultural life of Salt-Willow. It preserves stories, carries memory between generations, strengthens communal bonds, and gives voice to emotions that are often difficult to express directly. A FogWisp may learn as much about their people through song as through formal teaching, for the songs of the marsh carry lessons about home, belonging, loss, resilience, and the living world that surrounds them.
+
+Across the settlements of Salt-Willow, music accompanies nearly every aspect of life. It can be heard drifting from taverns at dusk, sung quietly aboard fishing barges moving through the reeds, shared among families gathered around lantern light, or carried across the water during communal celebrations and seasonal rituals. Songs are remembered, adapted, and passed onward, allowing each generation to remain connected to those who came before.
+
+The themes that emerge throughout FogWisp music reveal a people whose identity is inseparable from the marsh itself. The waters, trees, reeds, creatures, and fog are not merely scenery but active participants in the emotional landscape of the songs. Home is understood not as a collection of buildings or boundaries but as a living relationship between people, place, and memory. When a FogWisp sings of the swamp, they are often singing of family, ancestry, community, and self all at once.
+
+Many songs also reveal a remarkable balance between hardship and warmth. Even when confronting grief, displacement, danger, or uncertainty, FogWisp music rarely descends into despair. Humor, stubborn optimism, and quiet resilience continually surface, reflecting a culture that endures difficulty through community rather than conquest. The songs celebrate ordinary lives, small victories, familiar creatures, and local traditions with the same reverence that other civilizations might reserve for kings, wars, or great monuments.
+
+Taken together, the music of Salt-Willow offers a unique window into the FogWisp worldview. These songs do more than entertain. They preserve cultural memory, reinforce shared values, strengthen communal identity, and reveal how the people of the marsh understand their place within the wider world. Through them, Salt-Willow emerges not simply as a setting, but as a living civilization with its own emotional voice.
+
+
+---
+
+
+#### Cattails
+
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/Cattails.mp3" type="audio/mp3">
+</audio>')
+```
+
+<div class="song-box">
+
+
+
+
+*Cattails* is one of the foundational songs of Salt-Willow. Nearly every FogWisp would know its refrain, often learning it long before understanding why it carries such emotional weight.
+
+> “You can take me anywhere
+> But I’ll find my way back home.”
+
+At first hearing, the refrain sounds simple. Its repetition feels comforting, almost stubborn in its certainty. Yet beneath that certainty lies a deeper tension. The promise of return carries meaning only because separation is possible. The singer insists they will find their way home because there is always the fear that distance, time, war, or change might one day place that home beyond reach.
+
+For the FogWisps, home is not merely a location. It is the marsh itself, the people who inhabit it, the rhythms of daily life, and the generations who came before. To return home is to return to oneself. The repeated lyric therefore becomes more than a declaration of direction. It becomes an act of faith.
+
+The song also reflects a recurring theme throughout Salt-Willow culture: persistence. The cattails continue to grow after storms. The waters continue to flow. The people continue to endure. No matter where life carries them, the connection between the FogWisps and their homeland survives. Even when the future feels uncertain, the song insists that some bonds remain unbroken.
+
+What gives *Cattails* its emotional power is the coexistence of comfort and sadness. The listener feels the warmth of belonging, but also the quiet awareness that belonging can be threatened. The song does not ignore loss. Instead, it answers loss with determination, offering reassurance that memory, identity, and attachment can survive even when the world changes around them.
+
+</div>
+
+---
+
+
+#### The Frog Who Lost His Swamp
+
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/The Frog Who Lost His Swamp.mp3" type="audio/mp3">
+</audio>')
+```
+
+<div class="song-box">
+
+
+*The Frog Who Lost His Swamp* pairs an intricate musical arrangement with a remarkably intimate perspective. Through a soaring operatic performance, the listener experiences the marsh through the eyes of a frog who slowly begins to notice that something around her no longer feels the same. The changes are subtle. The water no longer hums. The cattails no longer whisper. Familiar sights and sounds seem increasingly distant.
+
+The arrangement gives extraordinary weight to these observations. As the frog moves through memories of the marsh he once knew, a flute weaves throughout the song, remaining close to the vocal line and carrying many of the emotions left unspoken. Together, the voice and flute create a piece that feels both beautiful and melancholy, transforming a simple story into something far more affecting.
+
+What makes the song particularly powerful is that it never explains exactly what has happened. The listener is given only the frog's perspective and the small changes he notices around him. The loss could of been his log was moved by a current or one of those big HobBogs. What matters is that the swamp no longer feels as it once did.
+
+The emotional climax arrives in the final chorus:
+
+> “Oh my swamp,
+>
+> My swamp,
+>
+> What have they done to my home”
+
+The prolonged crescendo on *to my home* lifts the final phrase above everything that came before it. By the song's conclusion, the listener understands that the frog is not mourning an abstract place, but something deeply personal. The song leaves open the possibility that the loss itself may be small, yet to the frog it carries enormous weight. In doing so, it captures how even the slightest change to something cherished can feel profound to those who belong there.  
+
+</div>
+
+
+
+---
+
+#### Toad Knights
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/Toad Knights (1).mp3" type="audio/mp3">
+</audio>')
+```
+
+<div class="song-box">
+
+
+
+*Toad Knights* celebrates one of the recurring themes found throughout Salt-Willow culture: the elevation of small things into matters of great importance. A pond becomes a kingdom. A spawning ground becomes sacred ground. A handful of toads become knights; sworn guardians standing watch beneath moonlit cattails.
+
+The song carries the confidence of a marsh that knows itself protected. River stones become helmets, driftwood becomes spears, and familiar creatures of the wetlands are remembered as noble defenders whose names endure through croak-song and story. The world described in the lyrics is intimate in scale yet grand in spirit and song, treating devotion and duty with the same reverence other cultures might reserve for kings and great armies.
+
+The emotional center of the song arrives in the bridge:
+
+> “One small ring of ripples
+>
+> Holds their whole wet world.”
+
+The line captures the perspective that gives the song its charm and significance. The pond may be small, but it contains everything worth protecting; and those protected know this waving to all:
+
+> "And you won’t cross this pond."
+
+The final verse brings the legend back to the marsh itself. A simple frog resting beside the fire becomes a knight beneath the rising moon, taking his place among those who guard the water through the night. The transformation in song goes from an upbeat musical score to a softened folklore, revealing how courage, responsibility, and love for home can turn even the humblest creature into a hero.
+
+</div>
+
+
+
+
+
+---
+
+
+
+
+#### Cypress Queen
+
+
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/Cypress Queen.mp3" type="audio/mp3">
+</audio>')
+```
+
+<div class="song-box">
+
+
+*Cypress Queen* tells the story of a mysterious pixie of the swamp whose cypress grove comes under threat from loggers seeking timber and profit. Confident in their plans and armed with axes, they enter the wetlands believing the marsh can be measured, marked, and claimed. The Cypress Queen has other ideas.
+
+Rather than confronting the intruders through force, she turns the swamp itself against them. Fog curls around their legs, trails bend away from where they should lead, and every attempt to impose order slips quietly from their grasp. The song delights in this contest. The loggers arrive certain of themselves, only to find that the marsh knows far more tricks than they do.
+
+The arrangement mirrors this playful struggle. The music twists and wanders like a hidden path through the wetlands, moving with a sense of mischief and motion. Even as the danger facing the cypress trees remains real, the song maintains an almost playful confidence, as though the outcome has already been decided long before the first tree is marked.
+
+The heart of the song lies in the Queen herself. She is clever, patient, and deeply connected to the land she protects. Her goal is not destruction but correction. The loggers leave soaked, exhausted, and thoroughly humbled, carrying with them a lesson they failed to learn when they first entered the grove.
+
+By the final verses, the cypress trees remain standing while the intruders retreat through the mud. The Queen's laughter mingles with the creaking of ancient branches overhead, turning the grove itself into a participant in the story. What begins as a tale of threatened trees ends as a celebration of a swamp that knows how to defend itself.
+
+</div>
+
+
+
+
+
+
+
+---
+
+#### Root and River
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/Root and River.mp3" type="audio/mp3">
+</audio>')
+```
+
+<div class="song-box">
+
+
+
+*Root and River* stands in contrast to *Cattails*. Where one song speaks of return, this one confronts the possibility that return is no longer possible. The singer is not merely separated from home. The fen itself has been taken away, leaving behind a sense of loss that cannot be repaired through distance, time, or distraction.
+
+The song's brevity contributes to its impact. There is no long story, no explanation, and no resolution. Instead, the listener is given a handful of powerful lines that linger long after the music ends. The swamp remains present in memory even as it slips further from reach.
+
+> “Ale can’t drown the swamp’s dark song.”
+
+The lyric captures the persistence of belonging. The singer may try to escape the pain, but the marsh remains. Its sounds, memories, and rhythms continue to echo beneath everything else.
+
+The emotional climax arrives with the song's final word:
+
+> “Nowhere.”
+
+By this point, the loss extends beyond the fen itself. Home is gone, and with it the certainty of where one belongs. The song leaves the listener suspended between memory and absence, creating one of the most melancholy moments found within the music of Salt-Willow.
+
+</div>
+
+
+
+---
+
+
+#### Cypress Bones
+
+```{r, results='asis'}
+cat('<audio controls>
+  <source src="songs/hobbog-saltwillow/Cypress Bones.mp3" type="audio/mp3">
+</audio>')
+```
+
+
+<div class="song-box">
+
+
+*Cypress Bones* occupies a different place within FogWisp storytelling than songs of community, celebration, or longing. It is a warning carried through song, telling of a dryad bound to an ancient stand of cypress trees and the outsiders who continue to press deeper into the swamp in search of timber. The song begins with restraint, yet beneath that restraint lies an unmistakable threat. The dryad is not asking for mercy. She is offering a final chance to leave.
+
+The atmosphere feels ancient and watchful. The swamp is presented as a living domain whose memory stretches far beyond the lives of those who enter it. The dryad stands as both guardian and voice of that memory, watching as greed and carelessness push ever closer to the heart of her grove.
+
+Rather than focusing on conflict itself, the song lingers in the moments before it. Warnings are given. Boundaries are crossed. The listener is placed alongside those who continue forward despite every sign that they should turn back. This growing sense of inevitability gives the song much of its tension.
+
+A recurring idea runs throughout the piece: the swamp remembers who harms it. The dryad's patience feels immense, shaped by seasons and centuries rather than days. Yet the song makes clear that patience is not endless. Every cut into the grove carries a cost, and every warning ignored brings consequences closer.
+
+> “You’ll feed the cypress bones”
+
+Indeed.  The raspy warning whispers that trees need nutrition.
+
+Among FogWisps, *Cypress Bones* serves as a reminder that the generosity of the swamp should never be mistaken for weakness. Beneath the still waters and quiet cypress stands rests an ancient resolve that protects what belongs there.
+
+</div>
+
+
+
+---
+
+#### Conclusion
+
+Taken together, the songs of Salt-Willow reveal a bog-folk who find meaning in things others might overlook.
+
+A frog grieving a familiar stretch of marsh. Toads elevated into legendary guardians. A dryad defending ancient cypress trees. A traveler who can no longer find a way home. None of these stories concern kings, empires, or great wars. Yet each is elevated to a grander hierarchy.
+
+Again and again, the songs return to the same idea: the places they love become part of who they are. A pond, a cypress grove, a stretch of a shifting islet, or a patch of reeds may seem small to outsiders, but within the songs they carry the weight of entire worlds.
+
+The result is a musical tradition that feels deeply rooted in Salt-Willow itself. The marsh is not merely the setting of these stories. It is their foundation. Every song emerges from it, returns to it, and draws meaning from it.
+
+In listening to these songs, one begins to understand the FogWisps themselves. Their humor, grief, loyalty, stubbornness, and affection for home all flow from the same source.
+
+The swamp endures even as it shifts.
+
+And so do the stories.
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+### Kin Folk of the Bogs
+
+<div class="image-scroll">
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-1.webp" >
+<h3>Salt-Willow Gatherer</h3>
+<p>A young marsh gatherer of the Salt-Willow clans, carrying woven reed baskets filled with herbs, roots, and river moss harvested from the flooded wetlands.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-2.webp" >
+<h3>Dusk Reed Initiate</h3>
+<p>A stern young Deyve of the Dusk Reed tribes, trained from childhood to watch the drowned forests and defend the hidden channels of the southern marshes.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-3.webp" >
+<h3>Marsh Widow</h3>
+<p>A quiet ferry-clan woman who guides travelers through the cypress swamps, speaking little and remembering every channel by heart.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-4.webp" >
+<h3>Net-Bearer of Salt-Willow</h3>
+<p>A pale marsh fisher carrying handwoven eel nets used in the deep cypress waters where few outsiders dare to travel.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-5.webp" >
+<h3>Cypress Court Huntress</h3>
+<p>A young huntress of the Cypress wilds, known for tracking swamp predators through flooded cypress islets.</p>
+</div>
+
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-1.webp" >
+<h3>Salt-Willow Poleman</h3>
+<p>A lean marsh traveler of the Salt-Willow clans, guiding shallow reed boats through flooded channels with long cypress poles and handwoven gear.</p>
+</div>
+
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-2.webp" >
+<h3>Salt-Willow Poleman</h3>
+<p>A lean marsh traveler of the Salt-Willow clans, guiding shallow reed boats through flooded channels with long cypress poles and handwoven gear.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-3.webp" >
+<h3>Salt-Willow Tracker</h3>
+<p>A hardened Willow tracker known for stalking the sulfur bogs where Dusk Reed incursions often happen.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-4.webp" >
+<h3>Marsh Hunter of Dusk Reed</h3>
+<p>A grim swamp hunter of the Dusk Reed tribes, carrying carved marsh spears and patrolling the deeper mangrove territories.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-5.webp" >
+<h3>Mangrove Channel Ferryman</h3>
+<p>An older marsh ferryman who navigates hidden reed and mangrove channels using long boating poles and generations of remembered waterways.</p>
+</div>
+
+</div>
+
+
+

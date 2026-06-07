@@ -1,0 +1,445 @@
+```{r , include=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+
+### HobBogs of Salt-Willow
+
+#### Overview
+
+The HobBogs of Salt-Willow, known as FogWisps, dwell among an immense bogland near the center of the Oasis Scourge, where tangled roots, reedwater, mangrove shadow, and drifting islets shape every part of life. To be born among them is to inherit a living memory: songs carried through fog, warnings passed quietly between kin, and the instinctive understanding that the ground beneath one’s feet may never fully settle.
+
+FogWisps stand low to the earth, lean and moss-skinned, with expressive swamp-ears and long dexterous fingers shaped by labor and craft. Their balance appears almost unnatural to outsiders, but it is simply the inheritance of generations raised on uncertain ground. They move easily where others stumble, sink, or lose their way. Their hearing is sharp. Their night-sense steady. 
+
+FogWisps are rarely seen without their poles, which are standard tools of daily life.  They engrave their bog-oak poles with mire-rich carvings and adorn them with shells and alligator teeth. A pole may steady the body, test the depth of root-shadowed water, guide a skiff, or serve in fishing. In Salt-Willow, such a thing is not merely an object. It is an extension of movement, caution, and survival.
+
+They build their lives from the swamp, reading its waterways and tree lines. Reeds become shelter. Willowwood becomes craft. Fishing, boats, and floating walkways become the foundation of community. Their homes rest upon drifting swamp islands, which outsiders often mistake for fragile places. To the FogWisps, a home that moves with the water is wiser than one that breaks against it. 
+
+FogWisps do not merely live in the swamp; they resemble it. Their thoughts, customs, stories, and agreements move the way water moves around roots — bending, circling, returning, and finding passage where a straighter folk would break. To outsiders this can feel evasive. To these HobBogs, it is the natural shape of wisdom.
+
+Salt-Willow’s folk are communal without being faceless. Kinship, memory, and obligation bind them together, yet individuality is deeply prized. It is considered a great sadness for one to possess a gift, a strangeness, or hidden beauty and never express it within the community.  While hermitdom exists within Salt-Willow, it is regarded as a curious and unvalued lifestyle.
+
+Salt-Willow history is not written so much as remembered. Stories move through gatherings, songs, family retellings, ferry-talk, and ritual performance. Details may shift from one telling to the next, but the emotional truth remains. Among the Salt-Willow HobBogs, memory is considered alive — carried by the people, reshaped by need, and renewed whenever it is spoken aloud.
+
+Even their games reflect this philosophy. Children change rules as they play, turning simple contests into acts of balance, cleverness, laughter, and negotiation. Adult life follows the same rhythm. Agreements are honored, but they breathe. Customs are respected, but they bend.
+
+To outsiders, this can seem slippery or inconsistent.
+
+To the HobBogs of Salt-Willow, it is survival refined into culture.
+
+> “Shiftiness is shelter that knows how to walk.”
+
+For the FogWisps, survival belongs not to those who reign over the marsh, but to those who listen to it. The wise know when water is warning them. They know when silence means danger. They know which old songs carry truth, and which paths are not paths at all.  To be a FogWisp is to swamp.
+
+
+---
+
+
+<br>  
+
+
+<div class="map-card">
+<img src="images/hobbog-saltwillow/salt-willow-web.webp" >
+<p>The Boglets of Salt-Willow</p>
+</div>
+
+<br>  
+
+---
+
+#### The Land
+
+Salt-Willow stretches across northern freshwater cypress marshes and southern mangrove labyrinths, fed by the joining of mountain runoff and swelling sea currents. Between them lies a long open seam of reedwater and mudflat, marking the divide between the region’s biomes, creatures, and ways of life.
+
+The southern mangrove maze forms the commercial heart of the region. Large fortified island settlements guard trade routes against raiders, pirates, and eastern incursions. Skiffs, ferries, and trading craft move through these shadowed waterways, carrying foodstuffs, hides, botanicals, poisons, carved goods, and swampwork to The Scourge, Coral Pass harbor towns, and the wider provinces of the former Talirian kingdom.
+
+The northern cypress marshes form the heart of Salt-Willow’s swamping communities. These boglands feed much of Salt-Willow and supply settlements beyond its borders. Families here live close to the water, raising their homes upon marsh masses, islets, sloughs, and cypress-shadowed banks.
+
+Salt-Willow is divided into bogs and smaller boglets. A bog is a cluster of large islets, sloughs, reedbanks, and marsh-mounds connected by wooden bridges, planks, skiffs, and muddy paths. Some boglets hold only a handful of families, while the greater bogs contain whole communities, workshops, ferry points, shrines, defensive posts, and trading houses.
+
+Four major bogs form the old backbone of Salt-Willow: Willowmarch, Mossmere, Reedveil, and Greyfen. Together they supported the standing defenders, the naval skiffs, and the unified trade outlets that once made Salt-Willow one of the great wetland powers of the Oasis Scourge.
+
+Deep in the northern cypress, near the crashing waterfalls of Highwater, lies Highwater Islet, where the Fen Mother keeps her hidden seat. Far to the southeast, near the open sea, Saltrest forms the largest and most outward-facing island of Salt-Willow. Its U-shaped harbor shelters military holds, trading docks, allied ships, and the taverns where swampfolk, sailors, merchants, and envoys gather for trade, mead, rumor, and song.
+
+---
+
+#### The Goblin Wars
+
+Salt-Willow’s strength began to fracture during the Goblin Wars. As the Crownless King carved his way east toward Middle Vale, the FogWisps of Salt-Willow and the Cragwolds of the Weald fought to slow the invasion through the swamps and mountain passes. They could not stop the advance, but their resistance bought precious time for Middle Vale and the fleeing Talirian court.
+
+The cost was severe. Salt-Willow’s waterways became militarized. Trade routes collapsed. Skiff patrols became war patrols. Families were scattered between fortified bogs, refugee islets, and hidden marsh camps. What had once been a living web of trade, kinship, and ritual movement hardened into a defensive maze.
+
+The war also deepened the old enmity between Salt-Willow and Dusk Reed. Though both peoples descend from ancient HobBog memory, they had long since become enemies of water, trade, and belief. Dusk Reed sought passage to the outer sea, while Salt-Willow worked with Coral Pass to prevent it. By guarding the western waterways, blocking canal excavations, and controlling the approaches to the coastal channels, Salt-Willow kept its eastern rival trapped within the interior marshes.
+
+That containment did not end the threat. It merely changed its shape.
+
+In the decades after the Goblin Wars, Dusk Reed expanded westward through Pale Hymn alliances and the growing settlements around Greyharbor Downs and Glentali Lake. Freed Glenkin labor, reshaped by Pale Hymn doctrine, helped build new agricultural power beyond the swamp. Salt-Willow found itself pressured not only from Dusk Reed’s marshes, but from the farms, roads, and frontier towns rising around its borders.
+
+Ten years before the present day, Greyfen was destroyed during a western incursion. Its fall sent refugees into Mossmere, weakened the old defensive order, and left Reedveil exposed to the radical currents spreading through the mudflats. Salt-Willow survived, but no longer as the unified wetland power it had once been.
+
+Salt-Willow became a refuge for scattered Dellari who had escaped Dusk Reed or fled back from the mountain refuges with nowhere else to go. The FogWisps did not forget that the Dellari had once fed the lake basin, nor that Dusk Reed and its Ashverin proxies now stood where the old Glentali Glenkin had lived. These refugees brought grief, warnings, and memory into the bogs, deepening Salt-Willow’s vehemence of the eastern marsh.
+
+Now Salt-Willow struggles after the collapse of its Talirian kingdom.  Willowmarch clings to renewed trade and the fading structures of the old world. Mossmere hardens itself for the invasion it believes will come again. Reedveil listens too closely to dangerous promises from the frontier. And Saltrest, still loud with trade, song, and foreign voices, remains the outward face of a people struggling to hold the swamp together.
+
+---
+
+#### Tradition and Lore
+
+The elders of Salt-Willow are guardians of the lore, carrying old stories through the raised fire pits of the bogs, where each telling is reshaped by the voices, troubles, humor, and memory of their folk. One of the oldest is The Dryad, the Cypress, and the First Salt-Willow.
+
+
+<div class="lore-scroll" markdown="1">
+
+In the elder-tale, the southern cypress once stood ankle-deep in sweet marshwater, tall, solemn, and very proud of how ancient they sounded when they complained. Then the sea began creeping inland. Salt touched their roots, and the cypress groaned so loudly that frogs abandoned three ponds just to hear themselves think.
+
+Their dryad listened for a while.
+
+Then she slapped a cypress trunk with both hands and said, “Enough. I have heard rocks with livelier courage.”
+
+The cypress shuddered with offense.
+
+“We are trees,” they said. “Moving is dramatic.”
+
+“Then be dramatic northward,” said the dryad.
+
+So the cypress began their slow march toward Highwater, where the northern willows grew beneath clean mist and crashing falls. The willows saw the cypress coming, muddy, moss-draped, and full of grievance.
+
+One willow leaned to another and whispered, “They smell of wet sorrow.”
+
+A cypress answered, “And you smell of vanity and waterfall.”
+
+The argument lasted until moonrise.
+
+The dryad stood between them, hands on her hips, swamp-mud up to her knees, patience floating away with the gnats.
+
+“You all have roots and somehow lack sense,” she said.
+
+Then she pointed south.
+
+“You,” she told the willows, “come see what frightened the cypress.”
+
+The willows rustled excuses. Their leaves needed mist. Their roots preferred sweetness. Their branches felt arranged just so. At last, one young willow stepped forward, slender and silver-leaved.
+
+“I will go,” he said, “because this arguing has become embarrassing.”
+
+The dryad liked him immediately.
+
+She led him south through the cypress maze, past reed pools, frog logs, and mangrove shade, until they reached the brackish seam where fresh runoff met the sea-pulled channels. The young willow placed one root into the salt-touched mud and curled every leaf in horror.
+
+The mangroves laughed so hard their roots clicked.
+
+“First taste?” they asked.
+
+The willow almost pulled away. Then the tide moved through him. Beneath the sharpness, he felt the sea carrying shells, storms, far coasts, and old songs from beyond the marsh. Behind him, Highwater still sang through the northern current. For one breath, both waters entered the same root.
+
+The dryad saw his leaves still.
+
+“There,” she said more softly. “You heard it.”
+
+The willow bent lower.
+
+“Sweetwater remembers,” he said.
+
+“Good,” said the dryad.
+
+“Saltwater carries.”
+
+“Better.”
+
+“And fog joins the two.”
+
+The dryad grinned. “Now you are becoming useful.”
+
+She pressed her palm to his trunk and gave him her swamp-gift: bark that could bear brine, roots that could sort sweetness from sting, and leaves that could drink dawn mist when the mud grew harsh.
+
+By morning, the willow still stood.
+
+By the next dusk, his bark had paled.
+
+By the third dawn, silver-green leaves opened over the southern channel, and frogs gathered beneath him as though they had advised the whole affair from the beginning.
+
+The dryad named him Salt-Willow, first of the willows to drink both waters.
+
+The cypress learned to settle where Highwater cooled their roots. The willows learned to send their boldest children south. The mangroves claimed the plan had always been obvious. The frogs agreed loudly with everyone.
+
+
+</div>
+
+From the old tale comes the FogWisp pattern: live through change, mark the change, and carry the mark forward. The first Salt-Willow drank both waters and became a new tree. A FogWisp does the same in smaller ways. A hard crossing, a clever bargain, a safe return, a family loss, a strange current, a feast, or a tale worth keeping earns a mark.
+
+Those marks become tradition.
+
+A pole gathers them first. Root-lines, current spirals, shell ties, reed-cuts, family notches, and alligator teeth show where a FogWisp has traveled and what the swamp has taught them. The pole begins as a tool, then becomes a memory carried in the hand.
+
+Skiffs carry the same memory across water. Their hulls are painted with willow branches, family signs, frog-eyes, current lines, and small jokes tucked beneath the rail. A good skiff mark tells the boglet where the boat belongs, who shaped it, and what sort of trouble its owner enjoys surviving.
+
+Around the raised fire pits, these marks are renewed. Elders tell the old tale. Families carve fresh lines into poles. Young hands paint new signs onto skiff boards. A clever mark earns laughter and spreads by morning. A solemn mark stays with one family for generations.
+
+This is how Salt-Willow turns lore into tradition: the story enters the hand, the hand marks the tool, the tool carries the memory, and the memory returns to the fire. Their oral traditions resemble swamp currents — constantly shifting while still flowing toward the same destination.
+
+Songs, myths, jokes, histories, and warnings evolve over time, but the emotional core of the story remains sacred.
+
+
+---
+
+#### Swamping
+
+Swamping forms the economic and cultural backbone of Salt-Willow. It is the daily work of drawing life from marsh, channel, reedbed, rootline, and drifting islet.
+
+A skilled swamper knows where fish gather, where reeds cut clean, where fungi rise after damp heat, where traps should sit, and which waters carry a skiff home before dusk. This knowledge feeds the bogs and supplies trade through Saltrest, Coral Pass, and the wider Scourge.
+
+The northern cypress marshes provide much of Salt-Willow’s food and craft wealth: fish, hides, fungi, reeds, medicines, poisons, binding fibers, skiff timber, and raftwood. These goods move through family hands first, then outward through the southern mangrove channels.
+
+Swamping also teaches a FogWisp how to read the land. Every channel has habits. Every stump, root-tangle, ferry bend, and half-sunk log can serve as a marker. A strange current may reveal a changed bed beneath the water. A patch of reeds may show where fish are moving. A quiet slough may hold traps, herbs, eggs, or danger.
+
+Most FogWisps live upon bog islands joined by kinship, skiff-runs, bridge planks, and remembered paths. A boglet survives because its families know which waters to share, which crossings to mend, which stores to fill, and which routes to keep open before flood season.
+
+Good swamping earns deep respect. It turns attention into food, patience into trade, and memory into survival. To swamp well is to belong well.
+
+---
+
+#### Morality and Social Bonds
+
+FogWisp morality begins with the boglet. A thing is judged first by whom it touches: family, kin, guest, stranger, rival, or threat. The same act may carry different meaning depending on the bond around it. To a FogWisp, morality lives in relationship, obligation, memory, and return.
+
+Family goods are held close. A trap line, skiff, fish rack, pole, pantry, or drying hide may belong to one household, yet it also sits within the wider life of the boglet. When a struggling family takes from a richer family’s waters, the act can be folded into kinship. Need creates its own claim. The debt may ripen later in labor, loyalty, protection, food, craft, or some future kindness brought back when fortune turns.
+
+Strangers live by a different current. A careless wayfarer in a tavern, a merchant flashing coin, or a sailor boasting over too much drink may become fair sport for quick hands. FogWisps admire clever taking when it is clean, quiet, and well-timed. A stolen purse may be shameful in one place and funny in another. What matters is the bond being touched.
+
+Kinship sets the sacred line. To cheat one’s own family, betray a boglet, abandon a shared crossing, or sell out a skiff-run to enemies carries deep shame. FogWisps can forgive idleness, foolishness, hunger, mischief, and wandering. They have a harder time forgiving a bond deliberately broken.
+
+Generosity often moves through the same channels as mischief. A FogWisp may steal from a drunken traveler at Saltrest and leave the spoils in the family stilt before dawn. A head family may control the best fishing bends and still let a hungry household draw from them for a season. A young idler may live off the boglet for years, then one day repay the debt through courage, craft, warning, or sacrifice.
+
+This gives Salt-Willow a morality that feels slippery to outsiders and sensible to its own folk. Property bends around belonging. Debt moves through time. Loyalty matters more than possession. A FogWisp may take from the wider world with a grin, then give everything back to the boglet when the water rises.
+
+---
+
+#### Speech and Dialect
+
+FogWisp speech is rhythmic, emotional, and shaped by the pressure of the moment. Meaning often rides in cadence, pause, repetition, and emphasis. A FogWisp may say the same phrase twice and mean two different things, depending on where the breath lands.
+
+Their dialect favors soft turns, added endings, and possessive phrasing. Words often gather small sounds at the edges: I’s, you’s, takes, coulds, wents, young’uns. These endings give the speech a rolling, bog-born rhythm, like a skiff nudged through reeds.
+
+FogWisps speak with metaphor because the swamp speaks that way. A lazy cousin may be “a frog waiting for the fly to apologize.” A dangerous silence may be “water holding its breath.” A clever thief may be “quick as a reed-shadow and twice as pleased.” Even practical speech often carries image, humor, and sideways meaning.
+
+Emotion changes the shape of the dialect. A calm FogWisp lets words drift and curl. A worried one repeats, circles, and tests the thought aloud. An angry one sharpens the endings, letting the final sounds arrive late and hard. The hiss at the end of a word can carry more threat than the word itself.
+
+Conversation among FogWisps is rarely clean and straight. They interrupt with corrections, jokes, old sayings, and small challenges. Agreement may come as a grunt, a proverb, a laugh, or a story that seems to wander before finding its point. A FogWisp who answers too directly may be seen as frightened, hurried, or trying to hide the shape of their thought.
+
+Their affection is equally indirect. Kin praise through teasing, complaint, and practical notice. A father telling his son, “You’s wake late,” may be scolding, caring, and inviting him into the day all at once. A sister painting a willow on a brother’s skiff may say more than a formal blessing ever could.
+
+A few common turns of FogWisp speech include:
+
+“I’s my own I.”
+Said by one asserting independence, often with more pride than proof.
+
+“That’s an odds.”
+Said when something feels wrong, strange, lucky, dangerous, or worth watching.
+
+“What drifts loose, drifts asking.”
+Said of unattended goods, loose coin, stray boats, and opportunities.
+
+“The bog hears it first.”
+Said when rumor, weather, trouble, or guilt has already begun to move.
+
+To speak like a FogWisp is to move through thought as they move through water: circling, testing, listening, joking, and letting meaning arrive by current.
+
+---
+
+#### Marriage and Family
+
+FogWisp courtship begins with curiosity. Attraction is explored through talk, travel, work, laughter, shared danger, and the small tests of daily swamp life. A clever exchange at a ferry bend, a painted sign on a skiff, a shared song beside a raised fire pit, or a steady hand during a difficult crossing may carry more weight than a formal declaration.
+
+Love among the FogWisps is understood as discovery. Two HobBogs learn each other by moving through the world together. They watch how the other handles hunger, fear, weather, debt, family, strangers, wealth, and sudden trouble. A beautiful voice may begin a courtship. A steady pole-hand may deepen it. A good joke at the right moment may save it.
+
+Newly bonded couples often depart on wandering journeys known simply as Quests. A Quest may last a few weeks, a season, or several years, depending on the pair and the waters that take them. Some travel through nearby boglets. Others journey toward Saltrest, Coral Pass, Glentali Lake, or the outer markets. The purpose is understanding: to see how love behaves beyond familiar planks, family eyes, and the easy comforts of home.
+
+Wealth matters in these bonds. A FogWisp joining is often marked by bog-gifts exchanged between families: carved poles, skiff shares, shell strings, smoked stores, fine hides, reedwork, fishing rights, trap access, or coin earned through trade. These gifts show that affection has weight behind it. A bond supported by generous giving brings honor to both families, especially when the gifts strengthen the new household rather than merely display pride.
+
+A Quest is remembered through marks. A couple may carve paired lines into their poles, paint a shared willow branch along a skiff, tie matching shells beneath their grips, or bring back a sign from a place that changed them. These marks become part of their household story if they remain together, and part of their individual stories if their paths later bend apart.
+
+Marriage itself is usually a family and boglet matter. The raised fire pit becomes the center of the joining. Families gather with food, smoke-reeds, carved poles, skiff marks, songs, and gifts made by hand. Elders speak the names of both households and tell the story of how the pair came together, often with enough teasing to make the couple regret every foolish thing they ever did in public.
+
+The central marriage sign is the shared crossing. The couple steps together across a plank, bridge, skiff board, or reed-laid path while their families watch. The crossing means they have chosen to move through changing water as a pair. Afterward, the families feast, sing, argue over details, improve the story, and begin turning the marriage into lore before the night is over.
+
+A strong FogWisp marriage keeps room for strangeness. Each partner remains fully themselves within the bond. A union that gives both voices more shape is admired. Love, at its best, lets each HobBog become more visible to the bog.
+
+---
+
+#### Children and Games  
+
+FogWisp children grow with unusual freedom. They wander the planks, mudpaths, skiff docks, reedbeds, and family stilts with watchful kin never far away. A young’un learns by curiosity: following an older cousin to the traps, asking a pole-maker about a carving, listening beside a raised fire pit, or disappearing for half a day to watch frogs argue with flies.
+
+Games are shaped by the swamp’s changing nature. Rules bend as the water bends. A chase across planks may become a balance trial. A hiding game may turn into a test of who can cross a rootway with the quietest feet. A skiff race may suddenly become a naming contest because the fog moved strangely and one child declared the water looked “suspicious.”
+
+One favorite game is played after the morning fog lifts from the distant mountains. The peaks stand where they always stand, but the children rename them according to what the fog has done to their shapes. One morning a peak may be Bent-Back. An hour later it becomes Tooth-Top. By noon some stubborn young’un may insist it was Swampa’s Thumb all along.
+
+The joke lies in the seriousness. Children argue the names fiercely, defend them with wild confidence, then abandon them the next morning when the fog gives the mountain a new face. Elders enjoy the game because it teaches a Salt-Willow truth without making a lesson of it: the thing may remain, while the telling changes.
+
+Other games grow from imitation. Children pretend to be proud willows, offended cypress, smug mangroves, and foolish frogs from the old tales. They invent skiff marks with mud and berry dye. They carve practice lines into fallen sticks. They hold tiny fire-pit gatherings where one child tells a story and the others interrupt until the tale becomes funnier than the teller intended.
+
+FogWisp childhood is full of this kind of play: naming, shifting, teasing, copying, retelling, and testing the world by laughter. The games prepare young’uns for the bog’s deeper rhythms. They learn balance before duty, humor before pride, and memory before certainty.
+
+---
+
+#### Death and Memory
+
+FogWisps believe the dead enter into and as the fog.
+
+At death, the final breath joins the low morning mist that drifts across Salt-Willow. The remembered dead become part of that pale veil, moving over channels, curling around stilt posts, settling near raised fire pits, and lingering in the cypress before the day grows warm.
+
+Morning fog carries memory. Families speak softly when it lies thick over the bogs, especially after a passing. A skiff may pause before leaving. An elder may place a hand on a pole and listen. In these hours, one's beloved dead draw nearest, present in the fog itself.
+
+---
+ 
+#### Songs
+
+<a style="color: lightblue !important;" href="#" onclick="window.parent.postMessage({type: 'openPage', target: 'hobbogs_salt_willow_songs.html'}, '*'); return false;">
+  <strong>Go to Songs of Salt-Willow</strong>
+</a>  
+
+Salt-Willow songs make small things feel large. A cattail, a frog, a pond, a cypress grove, or a lost stretch of marsh can carry the weight of home, grief, pride, warning, and laughter.
+
+Cattails is the song of return: wherever a FogWisp wanders, the bog still pulls them home. The Frog Who Lost His Swamp turns one creature’s sorrow into a tender song about change. Toad Knights makes a pond into a kingdom, with toads standing guard like sworn defenders beneath the cattails.
+
+The grove-songs carry sharper edges. Cypress Queen gives the swamp a clever guardian who outwits loggers with fog, misdirection, and patience. Cypress Bones turns the same world darker, with the cypress grove answering greed through warning and consequence.
+
+Root and River is the ache beneath the happier songs. It belongs to FogWisps who feel the bog slipping beyond reach, where drink, travel, and distraction still leave the old marsh-song inside them.
+
+Together, Salt-Willow’s songs show a folk who give full meaning to the places and creatures around them. Their music is local, strange, funny, sorrowful, and fiercely attached to home. A small pond can become a kingdom. A frog can become a mourner. A tree can become a warning. A swamp can become a voice.
+
+---
+
+#### Recap Table
+
+
+```{r}
+
+recap_table <- data.frame(
+  Section = c(
+    "Overview",
+    "The Land",
+    "The Gobin Wars",
+    "Tradition and Lore",
+    "Swamping",
+    "Morality and Social Bonds",
+    "Speech and Dialect",
+    "Marriage and Family",
+    "Children and Games",
+    "Death and Memory",
+    "Songs"
+  ),
+  `Salt-Willow FogWisps` = c(
+    "Belonging, continuity, family loyalty, individuality, and survival shaped by the bog.",
+    "Northern freshwater cypress marshes, southern mangrove labyrinths, major bogs, boglets, Saltrest, and Highwater Islet.",
+    "Salt-Willow resisted the Goblin advance, lost power and unity, and now endures pressure from Dusk Reed, Pale Hymn, and frontier instability.",
+    "Lore is carried through elder tales, fire-pit storytelling, pole marks, skiff signs, family symbols, humor, warnings, and old swamp stories.",
+    "Daily marsh work: fishing, trapping, reedwork, fungi, medicines, poisons, hides, skiff craft, and reading the water for survival.",
+    "Morality bends around kinship, obligation, return, family debt, clever taking, and loyalty to the boglet.",
+    "Rhythmic, emotional, indirect, metaphor-rich, playful, and shaped by cadence, repetition, and added endings.",
+    "Marriage joins families through bog-gifts, shared crossings, skiff marks, songs, food, teasing, and raised fire-pit gatherings.",
+    "Young’uns grow freely through shifting games, naming, laughter, water, fog, and invention.",
+    "The dead enter into and as the fog; morning mist carries remembrance, and family marks keep names close.",
+    "Songs are local, strange, funny, sorrowful, and deeply attached to home, marsh creatures, loss, family, and survival."
+  ),
+  check.names = FALSE
+)
+
+kbl(
+  recap_table,
+  caption = "Recap Table",
+  align = c("l", "l"),
+  escape = FALSE
+) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) %>%
+  column_spec(1, width = "18em", bold = TRUE) %>%
+  column_spec(2, width = "52em")
+
+
+
+```
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+Use these replacements:
+
+### Kin Folk of the Bogs
+
+<div class="image-scroll">
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-1.webp">
+<h3>Reed Gatherer</h3>
+<p>A young Salt-Willow gatherer carrying roots, reeds, and marsh plants gathered from the shallow wetlands around her home.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-2.webp">
+<h3>Market Quay</h3>
+<p>Salt-Willow traders meeting over baskets of fish, roots, herbs, and marsh goods in one of the village markets built above the water.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-3.webp">
+<h3>Net-Bearer</h3>
+<p>A marsh fisher carrying woven nets used to gather fish, eels, and river life from the deeper channels of the fen.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-4.webp">
+<h3>Ferry Clan Elders</h3>
+<p>Respected elders of the ferry clans, whose knowledge of hidden channels, village ties, and old obligations helps bind the many communities of Salt-Willow together.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-female-5.webp">
+<h3>Storykeeper</h3>
+<p>An elder passing memory to children through spoken tales, teaching them the names, duties, and old lessons of Salt-Willow.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-1.webp">
+<h3>Fen Watcher</h3>
+<p>A lean marsh watcher moving through the flooded forests, alert to travelers, predators, and trouble along the hidden channels.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-2.webp">
+<h3>Elder Council</h3>
+<p>Salt-Willow elders gathered in counsel, settling disputes, weighing old memories, and deciding what the village owes its kin.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-3.webp">
+<h3>Village Elder</h3>
+<p>An older HobBog whose weathered face and carried tokens mark long service to family, ferry routes, and village memory.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-4.webp">
+<h3>Marsh Lesson</h3>
+<p>A father teaches his child that those who come from the bog may share in its bounty when need is greater than ownership.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobBog-male-5.webp">
+<h3>Ferry Patrol</h3>
+<p>A Salt-Willow boatman guides passengers through dangerous channels, they encounter and save an escaped Glenkin slave child from Dusk Reed.</p>
+</div>
+
+</div>

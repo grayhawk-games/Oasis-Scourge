@@ -1,0 +1,112 @@
+Column 
+-------------------------------------
+
+### Introduction
+
+#### Canon Documents
+
+A foundational cultural and worldbuilding document for **Oasis Scourge**, a province of the former **Talirian Kingdom**, intended for literary consistency, game design, quest development, environmental storytelling, and franchise planning.  
+
+<p p style="color: navy;">Note, much of the documentation here can reveal certain dynamics that a player of The Oasis Scourge game would prefer to be left unknown.  We are providing it to the players for those who wish to delve into the cultures before game-play. </p>
+
+
+#### Introduction to Taliria
+
+**Taliria** was a verdant and halcyon kingdom until its collapse in its third dynasty during what was known as the Goblin Wars.  At the time of its collapse, it had spread across a continent bordering two seas and having assimilated seven disparate and variegated provinces; this document focuses on **Oasis Scourge**, a former province of Taliria, and its neighbor to the north, **Wyvern's Weald**.  
+
+The seven provinces of the former kingdom were:
+
+- **Oasis Scourge** — *the Scourge*
+- **Wyvern's Weald** — *the Weald*
+- **Northern Forest Edge** — *the Edge Frontier*
+- **Ashen Pale** — *the Pale*
+- **Middle Vale** — *the Vale*
+- **Verdant Steppes** — *the Steppes*
+- **Coral Pass** — *Coral*
+
+- **NOTE Wyvern's Mark**: Wyvern's Mark was ceded from The Weald to the Oasis Scourge fiefdom by the third former Talirian King.  This mistakenly was to make The Scourge stronger and secure the Talirian borders from incursions in the southern lands.  Many of the folk of The Mark see the fall of the Talirian Kingdom as an opportunity to rejoin their Weald brethren. While this is disputed amongst many of them, for it could unite the Scourge against the Weald, there is a long and deep love of the northern Weald, and a return to its fold.
+
+
+#### Background of the Talirian Kingdom  
+For more than four hundred years, the seven provinces of Taliria stood as one, ruled by a succession of Alderdell dynasties. It was no small thing. The land itself does not invite unity. Massive interior ranges divide Taliria into distinct provinces, creating natural barriers that shaped separate fiefdoms, cultures, and trade routes over centuries. The largest mountain chain cuts across the heart of the continent. Two long western ranges form a broad central corridor that became the core of Talirian identity — a rugged valley lorded over by the Wyverns. Mountain passes control commerce and military movement, and many regions developed independently behind these natural defenses. Each province has coasts and abundant trade, though Coral Pass has long dominated the seas, from the Embankment in the north all the way down to the swampish reaches of the HobBog lowlands.  
+  
+  
+
+#### The Provinces  
+
+To the **north** lie two vastly different lands: the **Northern Forest Edge** and **Ashen Pale**. The Edge Frontier is the Northwestern province and one of the largest in both land and people; marked by a central mountain chain that feeds waters into the valleys and swamps below.  It shares the Embankment with Ashen Pale - a large body of water dotted with islands and passes that open out into the ocean.  The Ashen Pale is a land of old ruin and older silences, where the war is said to have ended and something unnamed endured after. Few who pass into the Pale return unchanged, and fewer still speak clearly of what they saw there.
+
+To the **west** lies **Wyvern's Weald**, a valley that tests the mettle of those who enter the Wyvern's Run — a contest held every four years to cross the southern Weald and outlast its Wyverns and other dangers lurking in the forests and open fields. Those who survive are inducted into the Cragwold Halls and are memorialized forever.
+
+At the **center** of Taliria sits **Middle Vale**, home of the forest Alderdell and the seat of Talirian power. It was here that the Goblin General — elevated to the title of The Crownless, equal to the Goblin King himself for the duration of the incursion — met the Talirian King in battle and defeated him.
+
+To the **east**, the **Verdant Steppes** roll from the Vale's mountain range to the eastern seas. Once bucolic meadowland inhabited largely by the Glenkin, the Steppes were where the Crownless General continued his conquest after the Vale fell — while the Goblin King turned north from Oasis Scourge through the Weald. The Glenkin were enslaved during the incursion and lost much of their culture, and most of their farmland, to the war.
+
+To the **southwest** lies **Oasis Scourge** and its Shatterlands — a maze-like fracture of broken stone that borders the Red Frontier, the great southern desert beyond the Talirian lands. It was from these deserts that the Goblin armies emerged thirty-one years ago, scouring the Shatterlands and battling through the frontier passes of the Scourge. The border province remains culturally shaped by the memory of invasion.
+
+To the **far east**, across open water, sits **Coral Pass** — a long, claw-shaped island whose people, the Coralfolk, rule most of the sea between the mainland and the open ocean.
+
+
+#### The Fall
+
+The Goblin Wars marked the end of the Talirian Kingdom. With the Talirian King defeated and the unified throne broken, each province fell into its own politics — though every one of them is still shaped, in ways the chroniclers are only beginning to understand, by the friendship between the Goblin King and the Talirian King.
+
+That friendship is its own story, and not one this document is ready to tell. For now, it is enough to say that the two were friends before fate interceded, and that the manner of the kingdom's fall cannot be understood without remembering it.
+
+The events described elsewhere in this document take place **thirty-one years after** the invasion began. The kingdom is gone. The provinces remain.
+
+
+#### Races of the Talirian Kingdom
+
+Taliria is home to seven major folk:
+
+Core Folk of Oasis Scourge:
+- **HobBogs**
+- **Cragwolds**
+- **Humans**
+- **Glenkin**
+
+Peripheral Folk:
+- **Tordwergs**
+- **Alderdell**
+- **Coralfolk** of Coral Pass (In the Oasis Scourge, most commonly found in the harbor settlements)
+
+The provinces of Taliria vary widely in racial composition. Some, such as Oasis Scourge, are heavily mixed along the coasts while remaining culturally homogeneous in the deep interiors. Others, like the Vale, were once cosmopolitan but later fractured along older ethnic and provincial lines.
+
+The sections that follow address the peoples of Oasis Scourge specifically; the remaining provinces are detailed in their own regional volumes.
+
+##### HobBogs
+
+<a href="hobbogs_salt_willow.html" onclick="openPage('hobbogs_salt_willow.html'); return false;">
+  <strong>Go to the HobBogs of Salt-Willow</strong>
+</a>
+
+<a href="hobbogs_salt_willow.html" onclick="openPage('hobbogs_dusk_reed.html'); return false;">
+  <strong>Go to the HobBogs of Dusk Reed</strong>
+</a>
+
+HobBogs are a small, wiry marsh people, shaped above all by the brackish waters of their swamps. They are an adaptive and fluid folk, carrying their oral histories with them, forever swaying like the currents of their marshes.  They are found throughout Oasis Scourge, the Northern Forest Edge, and Coral Pass. In Oasis Scourge, two kinfolk dominate the swamps: the Fogwisps of Salt-Willow and the Deyves of Dusk Reed. Two swamps separated by an isthmus. Salt-Willow was devastated in the Goblin Wars. Dusk Reed prospered. The link above shares more about these bog folk.
+
+##### Cragwolds
+
+<a href="cragwolds.html" onclick="openPage('cragwolds.html'); return false;">
+  <strong>Go to the Cragwolds of The Weald</strong>
+</a>
+
+Cragwolds, known among themselves as the Wyraks, are a broad and enduring mountain folk shaped by the escarpments, cliff valleys, and stone ridges of western Taliria. They are found throughout the Weald, the Northern Forest Edge, and the Middle Vale, where their fortress settlements and terraced strongholds overlook the deep passes and canyon roads of the interior. Many possess heavy brows, thick frames, and pronounced tusks, traits long associated with the harsher mountain bloodlines of the west.
+
+Unlike the marsh-bound HobBogs, the Cragwolds are deeply devoted to history, philosophy, and ancestral memory. Their halls preserve centuries of recorded disputes, oral epics, and stone-carved chronicles passed from elder to elder across generations.
+
+In Oasis Scourge, Cragwold communities are concentrated primarily within the mountain regions of the Weald Mark and Ternhaven. The link above shares more about these highland folk.
+
+
+##### Glenkins
+
+[**Go to Glenkins of Oasis Scourge Main Page**](glenkins.html)
+
+
+The Glenkin are one of the oldest agrarian folk of Taliria, descended from the fertile river plains and fisheries of the Verdant Steppes where dense communal settlements flourished long before the rise of the southern kingdoms. Small-bodied and broad-built, they became renowned throughout the eastern provinces for their mastery of floodplain farming, fisheries, orchards, and canal trade.
+
+Large Glenkin populations settled the bucolic Glentali Lake region of Oasis Scourge where they fed both The Scourge and the neighboring Weald through generations of patient agricultural labor. The Goblin Wars shattered much of this world. Entire communes collapsed beneath invasion, famine, enslavement, and forced migration, leaving the Glenkin deeply fractured between mountain refugees, displaced lake-folk, and Pale Hymn-aligned communes resettled under Deyve influence following the wars.
+
+The link above shares more about these fractured lowland folk.

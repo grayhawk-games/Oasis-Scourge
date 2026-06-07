@@ -1,0 +1,122 @@
+
+```{r , include=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+
+### The Dellari Glenkin
+
+#### Overview
+
+Before they were Dellari, they were Glenkin of the Verdant Steppes: meadowfolk, lakefolk, and farming families who looked westward when the First Talirian Dynasty began opening new lands across the realm. Some of the more adventurous families followed that expansion across Taliria, leaving the meadowlands and lake-country of Verdant Steppes for the fertile basin of Glentali Lake. There, over generations, they built farms, ferries, canals, and levees, until the basin became more than a settlement. It became their homeland.
+
+Over time, the settlers made Glentali Lake their own: a vast lake system fed by rivers flowing down from the southernmost reaches of the Ternwall Range. Their farms spread along the shores, feeder waters, and lowland fields. Ferries crossed between lake settlements, while canals, levees, and aqueducts tied the basin into one working system. Life came to revolve around planting, repair, harvest, boat travel, and the seasonal rise and fall of the waters. They became the **Dellari — children of the basin** — a Glenkin culture rooted in Glentali’s fields, lakeways, and sheltered lowlands.
+
+Glentali’s place in Oasis Scourge made the Dellari more than farmers. To the north stood the Ternwall Range, with the Cragwolds and human settlements of Ternhaven. To the south stretched the Shatterlands and its hard desert folk. To the east lay Greyharbor Downs and the bogs of eastern Oasis Scourge. The Dellari fed them all. Grain, fish, seed, ferrywork, canal labor, and lake trade tied Glentali into the root of the province. Over centuries, they also helped build, supply, and maintain the ducal citadel above the lake, the seat from which Talirian nobility governed Oasis Scourge.
+
+When the Goblin Wars reached the Scourge, Glentali Lake became one of the first great prizes of the invasion. The basin was not a borderland to be raided and abandoned; it was the province’s storehouse, waterworks, ferry hub, and agricultural heart. When the goblin armies broke through, they did not merely burn farms. They shattered the system that made Oasis Scourge governable. The ducal citadel was destroyed, the lake settlements were emptied, and the Dellari were massacred, enslaved, or driven north into RidgeFount and the mountain refuges below the Ternwall Range.
+
+In the present day, the Dellari remain scattered between the homeland they lost and the mountain refuges that kept them alive. Some still look south toward Glentali Lake and the fields their families once tended. Others have grown into RidgeFount life, learning the hard roads, high passes, and Cragwold ways that survival demanded of them. They are no longer only lakefolk, but they are not mountain folk either. They are the **Dellari — children of the basin** — driven from Glentali, remade by exile, and still bound to the lake that gave them their name.
+
+
+---
+
+
+<br>  
+
+
+<div class="map-card">
+<img src="images/glenkin-dellari/dellari-diaspora.webp" >
+<p>The Dellari Diaspora</p>
+</div>
+
+<br>  
+
+---
+
+
+#### The Land
+
+
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+### Kin Folk the Dellari (in the Diaspora)
+
+<div class="image-scroll">
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-female-1.webp" >
+<h3>Reed Gatherer</h3>
+<p>A young Salt-Willow gatherer collecting roots, herbs, and marsh plants from the shallow wetlands that sustain her community.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-female-2.webp" >
+<h3>Fen Cook</h3>
+<p>A village cook preparing a communal meal beside the water, where stories, songs, and news travel as freely as the boats.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-female-3.webp"  >
+<h3>Willow Wayfinder</h3>
+<p>A traveler familiar with the hidden channels of Salt-Willow, guiding folk safely through flooded forests and winding waterways.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-female-4.webp">
+<h3>Net-Bearer</h3>
+<p>A marsh fisher carrying handwoven nets used to harvest fish, eels, and river life from the deeper waters of the fen.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-female-5.webp" >
+<h3>Fen Trapper</h3>
+<p>A resourceful trapper gathering food and materials from the marsh while tending the woven traps scattered throughout the wetlands.</p>
+</div>
+
+
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-male-1.webp">
+<h3>Village Elder</h3>
+<p>An older Salt-Willow elder whose counsel is sought in matters of family, memory, and disputes between neighboring communities.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-male-2.webp" >
+<h3>Fen Watcher</h3>
+<p>A marsh watcher patrolling the flooded forests, keeping an eye on travelers, predators, and distant movements across the water.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-male-3.webp" >
+<h3>Storykeeper</h3>
+<p>A respected keeper of songs, histories, and family tales, preserving the memory of Salt-Willow through spoken tradition.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-male-4.webp" >
+<h3>Ferry-Clan Boatman</h3>
+<p>A boatman of the ferry clans, carrying folk and goods along the countless waterways that connect the marsh communities.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/glenkin-dellari/dellari-male-5.webp" >
+<h3>Marsh Trader</h3>
+<p>A traveling trader moving between villages by boat, exchanging fish, reeds, herbs, and news gathered from across the fen.</p>
+</div>
+
+</div>
+

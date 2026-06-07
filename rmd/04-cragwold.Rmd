@@ -1,0 +1,517 @@
+```{r , include=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+### Cragwolds of the Weald
+
+#### Overview
+
+**Cragwolds**, known among themselves as the **Wyraks**, are a broad and enduring mountain folk shaped by the escarpments, forests, and stone ridges of western Taliria. They dwell throughout the Weald, Northern Forest Edge, and the high interior valleys where the mountain roads narrow into cliffs and the wyverns circle above the cloud line. To outsiders they are often grouped together beneath the broad term “Cragwold,” yet among themselves the old identities remain deeply important.
+
+The mountain roads of the Wyraks climb through narrow ridges where a misplaced step can send loose stone into the valleys below. Fog settles heavily against the escarpments, hiding entire passes for days at a time, and many of the old ridge paths disappear beneath landslides or overgrowth before being cleared again by the mountain clans. Over generations the Cragwolds became a patient folk, known for patience, observation, and restraint. Their monasteries preserve engineering records beside astronomical charts and oral histories, treating each as part of the same long effort to understand the enduring patterns of the mountains above an ever-changing weald.
+
+The Goblin Wars and the fall of Taliria deepened divisions that had long existed among the Wyraks of the western mountains. Generations earlier, during the Third Dynasty of the **Talirian Crown (TC)**, the **Weald Mark** (see below) was ceded from the province of Wyvern's Weald to the province of The Oasis Scourge so that the mountain valleys might serve as a stable refuge and source of cultivation, trade, and protection for the southern provinces during times of invasion or famine. Many Cragwolds embraced this duty and grew closely tied to the peoples of the Scourge, believing the mountains were meant to preserve not only their own folk, but all those who depended upon the Weald during times of collapse. Others viewed the ceding of the Mark as a dangerous bargain that bound the mountain clans too closely to the ambitions and failures of lowland kingdoms. To them, the mountains were no gift to be offered freely, but a harsh land that demanded patience, discipline, and understanding from those who sought refuge within them. Far to the west, more contemplative mountain clans withdrew from these disputes almost entirely, devoting themselves to astronomy, mathematics, engineering, and the preservation of ancient knowledge carried through the passes by trade and travelers. Though outsiders often speak of the Cragwolds as a singular people, the Wyraks themselves have never fully agreed upon what the mountains are meant to protect, nor whom they are meant to endure for.
+
+
+```{r}
+library(timevis)
+timeline <- data.frame(
+  Year = c(
+    "0 TC",
+    "0–214 TC",
+    "214 TC",
+    "214–431 TC",
+    "431 TC",
+    "447 TC",
+    "447–588 TC",
+    "589 TC",
+    "590 TC",
+    "591 TC",
+    "592–594 TC",
+    "594 TC",
+    "597 TC",
+    "601 TC",
+    "Present Day (~624 TC)"
+  ),
+
+  Event = c(
+    "Founding of the Talirian Crown and beginning of the First Dynasty.",
+    "First Dynasty. Expansion of the western pass roads and provincial alliances.",
+    "Beginning of the Second Dynasty.",
+    "Second Dynasty. Consolidation of southern provinces and expansion of Weald trade.",
+    "Beginning of the Third Dynasty.",
+    "The Weald Mark is ceded to Oasis Scourge.",
+    "The Weald Mark prospers beneath southern administration.",
+    "Beginning of the Goblin Wars.",
+    "Southern Scourge settlements begin collapsing.",
+    "Goblin armies push deeper into the Weald.",
+    "Major retreat campaigns through the Weald and Crown-Watch passes.",
+    "Goblin forces breach the northern passages toward Middle Vale.",
+    "Death of the Talirian King.",
+    "Fall of the Talirian Crown.",
+    "The Southern Weald remains divided by old Cragwold traditions."
+  )
+)
+
+kbl(
+  timeline,
+  col.names = c("Year (TC)", "Event"),
+  align = c("l", "l"),
+  escape = FALSE
+) %>%
+  kable_classic(
+    full_width = TRUE,
+    html_font = "Georgia"
+  ) %>%
+  
+  row_spec(
+    0,
+    bold = TRUE,
+    color = "#1F2D3A",
+    background = "#D9E2EC"
+  ) %>%
+  
+row_spec(1:2,  background = "#EFF0F1") %>%  # light #3F4B53
+row_spec(3:4,  background = "#CACDD0") %>%  # medium-light #3F4B53
+row_spec(5:7,  background = "#EFF0F1") %>%  # stronger #3F4B53
+row_spec(8:14, background = "#CACDD0") %>%  # light #A2A7AB
+row_spec(15,   background = "#EFF0F1") %>%  # stronger #A2A7AB
+  
+  column_spec(
+    1,
+    bold = TRUE,
+    width = "180px",
+    border_right = TRUE,
+    color = "#3F4B53"
+  ) %>%
+  
+  column_spec(
+    2,
+    width = "900px"
+  )
+```
+
+
+
+
+Today the Cragwolds remain deeply rooted throughout the Southern Weald. Their roads still bind the mountain passes together. Their fortress archives preserve histories lost elsewhere in Taliria. Their stone halls still oversee the Wyvern Run. But beneath the outward calm of the mountains, old divisions remain unresolved.
+
+
+
+#### The Land (of the Southern Weald)
+
+
+
+<div class="map-card">
+<img src="images/cragwold/wyverns-mark.webp" >
+<p>The Southern Weald</p>
+</div>
+
+The Southern Weald is an enormous expanse including two mountain ranges on either side and a traversal range that separates it from its kin-northerners.  The traversal range is called Crown-Watch, made up of a vast network of mountain passes that stretch across the valley, separating the twin basins.  Crown-watch is home to an ancient Cragwold stronghold where many of the Cragwold nobility of The Weald make their home.   Here the political center of The Weald holds their courts.   While technically, the entirety of the Southern basin falls under Crown-Watch, it is mostly uninhabited as the Wyverns make life difficult in the Southern vale.  
+
+The Western range is called the Ternwall Range; a large mountain range that runs northward from the Glentali region of Oasis Scourge all the way up to Northern Forest Edge.  Ternwall Range was home to the former Oasis Scourge's Ducal citadel, now in ruins atop the motte overlooking Glentali lake.   
+
+The Eastern range drives south down near Dusk Reed all the north near the Embarkment of Northern Forest Edge and Middle Vale until veering Eastward; a strange directoral shift unexplained to this day.   Here you can find the Southern encarpments of WyrsSine and CragPine.
+
+Lastly, a lone low , massive isolated massif, RidgeFount, standing isolated at the valley's mouth, acts as a natural bastion, forcing all northward travel into its shadow.
+
+##### Ternwall Range and the Ternfolk
+
+Along the western face of the Ternwall mountains dwell the Ternfolk, a contemplative and unusually isolated branch of the Cragwolds overlooking the harbor settlements of Ternhaven. Protected by the sea-facing cliffs and largely removed from the devastation of the Goblin Wars, the Ternfolk became known throughout the Weald for scholarship, astronomy, natural philosophy, and the preservation of ancient Talirian texts.
+
+Unlike many other Wyraks, the Ternfolk maintain steady contact with traders and travelers arriving by sea. Foreign instruments, books, navigational devices, and fragments of distant philosophies often reach Ternhaven before they reach any other Cragwold settlement. Over generations this produced a culture less rigidly traditional than the eastern ridge clans, though no less disciplined.
+
+The Ternfolk are often criticized by other Wyraks for detachment. Many Crown-Watch wardens view them as aloof observers who contemplate the world more than they defend it. The WyrSpine clans in particular distrust their fascination with outside ideas and foreign artifacts. Yet even their critics admit that much of the surviving mathematical and astronomical knowledge of southern Taliria endured only because the Ternfolk preserved it.
+
+On the eastern side of the Ternwall range, only sparse pass settlements exist. These small mountain communities maintain hidden crossings between the western coast and the Weald interior, guiding travelers through narrow escarpments and ancient stone roads rarely used by outsiders.
+
+
+##### RidgeFount and the Cultivator Clans
+
+
+South of Crown-Watch basin, rises the broad central mountain known as RidgeFount, often called simply “The Fount” by the southern Weald folk. Wider and more fertile than the surrounding ridges, RidgeFount contains terraced valleys, glacial waterways, and cultivated highland settlements unlike any other Cragwold territory.
+
+It was here that the Talirian crown forged its deepest alliance with the Wyraks.
+
+When the Weald Mark were ceded to The Oasis Scourge, generations before the Goblin Wars, many RidgeFount clans embraced the decision as both strategic necessity and moral obligation. They believed civilization survives only when stronger regions accept responsibility for weaker ones. Over time, the RidgeFount Cragwolds became deeply tied to the peoples of Oasis Scourge, protecting trade routes, administering mountain crossings, and eventually overseeing the beginning of the Wyvern Run itself.
+
+During the Goblin Wars, the RidgeFount clans opened their mountain settlements to refugees fleeing the fall of the south. Glenkin, humans, scattered HobBog survivors, and retreating Talirian forces were sheltered within the valleys of the Fount while armies marched through the Weald below. Vast quantities of food, iron, and mountain resources were poured into the southern war effort.
+
+To many throughout Taliria, RidgeFount became the embodiment of sacrifice and civil duty.
+
+To others, particularly the eastern WyrSpine clans, RidgeFount nearly doomed the mountains themselves.
+
+Even today the Fount remains politically divided. Many RidgeFount folk still believe their ancestors chose correctly, preserving countless lives during the collapse of the south. Others quietly admit that the eastern warnings may have preserved the mountains had they been followed.
+
+
+##### WyrSpine and the Old Wyraks
+
+The eastern mountain chain known as WyrSpine rises beside the harshest wyvern territories in the southern Weald. Narrow ridges, broken escarpments, hidden caverns, and isolated stone holds dominate the range, producing a people hardened by generations of difficult survival.
+
+Among outsiders, the WyrSpine clans are often called Spinefolk or simply eastern Cragwolds. Internally, many reject these names entirely and refer to themselves only as Wyraks — or more pointedly, as the Old Wyraks.
+
+The WyrSpine folk believe kingdoms are temporary, but the mountains endure.
+
+To them, the Goblin Wars proved the dangers of overextension and centralized ambition. Many eastern clans argued that the southern provinces were strategically indefensible once the Goblin King entered the Weald. Rather than pour resources southward, the WyrSpine elders believed the mountain passes should have been sealed and the Weald itself transformed into a defensive killing ground alongside the wyverns.
+
+Had the Wyraks unified defensively, many eastern clans argue, the Goblin King may never have advanced north into the heart of Taliria.
+
+This belief remains one of the deepest political wounds within Cragwold society.
+
+The WyrSpine folk are deeply preservationist by nature. They distrust large roads, excessive mining, rapid expansion, and most attempts to reshape the mountains themselves. Isolation is not considered weakness among them, but wisdom. Many settlements remain hidden within ridge caverns and narrow cliff paths known only to local clans.
+
+Yet despite their harsh reputation, the WyrSpine clans are not regarded as cruel among the Wyraks. Their severity is understood instead as discipline shaped by generations of survival in the eastern ridges. They simply believe survival requires restraint, discipline, and refusal to gamble the future of the mountains upon the ambitions of kingdoms.
+
+
+#####  Crown-Watch and the Northern Wardens
+At the northern threshold of the southern Weald stands Crown-Watch, the wealthiest and most politically powerful Cragwold stronghold of the region. Built among the northern mountains overlooking the upper passes, Crown-Watch guards the divide between the southern Weald and the northern territories beyond.
+
+Unlike the contemplative Ternfolk or the isolated WyrSpine clans, the Crown-Watch Wyraks became builders, miners, engineers, and fortress lords. Their caverns descend deep into the mountains where iron, silver, and rare minerals are extracted through vast underground halls. Much of the surviving metallurgy of the southern Weald originated in Crown-Watch forges.
+
+The Crown-Watch folk believe the mountains must serve civilization.
+
+This philosophy places them in direct conflict with the preservationist instincts of the WyrSpine clans, who often accuse Crown-Watch of hollowing the mountains themselves. Crown-Watch responds that stone unused is stone wasted, and that strength, walls, discipline, and industry are the only things that preserved the Weald after the fall.
+
+During the Goblin Wars, Crown-Watch coordinated northern defenses, maintained fortress roads, and organized retreat routes through the mountain passes. They also administered the conclusion of the Wyvern Run, receiving survivors at the great northern statue where contestants complete the crossing of the Weald.
+
+Among many southern folk, Crown-Watch represents endurance itself.
+
+Among others, it represents the slow transformation of the Wyraks into another ruling power little different from the kingdoms below. But in the end, they suffered as much as any of the other clans during the War, and it has hardened their nobility to side more often now with the clans of Wyrspine.
+
+
+##### The CragPine Frontier
+South of WyrSpine and east of RidgeFount stretches the vast woodland frontier known as the CragPine. Dense pine forests, lower mountain slopes, hidden grass valleys, and old migration trails dominate the region, creating one of the largest unsettled expanses remaining in southern Oasis Scourge.
+
+Unlike the older mountain territories, the CragPine is still evolving.
+
+Following the Goblin Wars, refugees, displaced Wyraks, scattered frontier clans, and wandering settlements slowly expanded into the forests where the wyverns rarely hunt. Over time the CragPine became a transitional society balancing mountain traditions against the practical realities of frontier survival.
+
+Outsiders generally refer to the CragPine folk simply as Cragwolds. Internally, identity is less certain. Some still call themselves Wyraks. Others identify only as folk of the CragPine.
+
+The frontier settlements maintain trade routes toward Middle Vale while carefully avoiding the deeper wyvern territories farther north. Many villages remain temporary by mountain standards, relocating after harsh winters, creature migrations, or forest fires.
+
+Compared to the older mountain clans, the CragPine folk are unusually adaptive. They distrust rigid ideology, having survived the collapse of Taliria through flexibility rather than certainty. Some sympathize with RidgeFount. Others quietly agree with the WyrSpine traditionalists. Most simply seek stability in lands where stability rarely lasts for long.
+
+Some among the southern bog folk now watch the expansion of the CragPine frontier with growing unease.
+
+#### The Goblin Wars  
+
+The Goblin Wars transformed the Cragwolds more deeply than many outsiders realize. Though the mountains themselves remained difficult for the goblin armies to fully conquer, the political consequences of the war fractured centuries of shared purpose among the Wyraks.
+
+When Oasis Scourge came under threat, the cultivator clans of the central mountain descended from the heights to reinforce the south in accordance with their oaths to Taliria. Roads were opened, granaries emptied, and mountain retainers marched toward the frontiers of the kingdom.
+
+The ridge clans believed this decision weakened the Weald itself. Many argued the goblin hordes could never have survived prolonged movement through wyvern territory and mountain passes had the Cragwolds withdrawn inward and allowed the mountains to become a death zone for invading armies.
+
+Some among the ridge clans still claim the goblin king himself expected the Wyraks to retreat into the mountains rather than descend into the south. The decision of the cultivators to aid Oasis Scourge reportedly shocked even the enemy leadership.
+
+That disagreement remains unresolved generations later.
+
+
+#### Tradition and Lore
+
+Among all Cragwold traditions, one belief remains nearly universal: the world decays when memory fails.
+
+For this reason the Wyraks preserve mountain pathways long after kingdoms collapse. They maintain archives within mountain halls abandoned centuries earlier. They continue reciting star charts whose creators are long forgotten. Even ruined fortresses are rarely dismantled entirely, for many Cragwolds believe old stone remembers the intentions of those who shaped it.
+
+This devotion to preservation shapes their relationship with nature itself.
+
+Unlike the expansionist forestry traditions of the Alderdell, most Cragwolds reject large-scale transformation of the land. Forests are not resources to be consumed endlessly, but living balances that stabilize mountain life. Rivers are redirected carefully if at all. Entire roads are sometimes abandoned rather than widened through ancient pine valleys.
+
+Among the Wyraks, permanence is not achieved through conquest. It is achieved through restraint. While the encroachment towards the bogs in the south, it remains a slow process as cragwolds honour and preserve the forest floor.
+
+The mountains are believed to reveal truths that cannot be found in courts or cities. Rivers follow the shape of stone. Snow collapses where weakness already exists. Avalanches obey weight rather than desire. To the Wyraks, the world possesses an underlying structure independent of emotion or ambition.
+
+This belief forms the basis of the One Way, a philosophical tradition practiced differently across the mountain ranges but centered upon alignment with the natural order of existence. Many Cragwolds believe civilization collapses when people attempt to impose themselves upon the world rather than understand it. Pride, conquest, greed, and excess are viewed not merely as moral failings but as forms of blindness.
+
+The One Way values silence, endurance, restraint, and disciplined observation. Some Cragwolds spend decades preserving old mountain records, studying geometry, charting stars, or maintaining ancient roads not because such acts bring status, but because they preserve continuity against the chaos of passing generations.
+
+The One Way does not teach that perfection exists beyond the world. To the Wyraks, truth is revealed within the world itself: in thaw and frost, flood and drought, birth and burial, the fall of stone and the return of green things after fire. Nothing living is meant to remain fixed. A thing becomes false when it refuses its season.
+
+Among the older contemplative traditions, it is sometimes said:
+
+> “The mountain does not bend to belief. Only to truth.”
+
+The Cragwold sees the mountains vast repose as the embodiment of happiness. Their own fluid traversal life strives to replicate the mountain’s stillness.
+
+This then all leads to their lore; as a typical recount of a lore-story:   
+
+
+##### The Stone That Waited
+
+<div class="lore-scroll" markdown="1">
+
+
+When Hadrik was young, he wished to build a road.
+
+Not a trail, nor a shepherd's path, but a true road carved through the High Pines of WyrSpine. He gathered companions, sharpened tools, and presented his plan before the elders.
+
+"It will save weeks of travel," he said.
+
+The elders listened.
+
+"It will bring trade."
+
+The elders nodded.
+
+"It will bring prosperity."
+
+The elders remained silent.
+
+At last, an old woman named Sera placed a weathered map before him.
+
+"Walk the valley first."
+
+So Hadrik walked.
+
+He crossed the High Pines and descended into the ancient valley where no road existed. The journey took many days. Fallen trees blocked the path. Moss covered forgotten stone markers. Snowmelt flooded sections each spring.
+
+The road was needed.
+
+When he returned, he told the elders what he had seen.
+
+Again they listened.
+
+Again Sera unfolded the old map.
+
+This time she pointed to a faded line.
+
+"There was once a road there."
+
+Hadrik frowned.
+
+"No road remains."
+
+"Then find it."
+
+The following spring he returned with workers and tools. They searched the valley and eventually discovered fragments of stone hidden beneath roots and moss. Entire sections had vanished beneath centuries of forest growth.
+
+The road had existed.
+
+For three summers they cleared it.
+
+Not widened.
+
+Not rebuilt.
+
+Cleared.
+
+Ancient retaining walls emerged from beneath the soil. Drainage channels still carried water after hundreds of years. Stone bridges stood where every young Cragwold believed there had only ever been wilderness.
+
+When the work was complete, travelers crossed the valley once more.
+
+The road served exactly as Hadrik had promised.
+
+Trade increased.
+
+Travel became easier.
+
+The valley prospered.
+
+Years later, after Sera had died, Hadrik finally asked why she had opposed his original plan.
+
+An elder answered.
+
+"She never opposed it."
+
+"Then why send me away?"
+
+The elder pointed toward the mountain above them.
+
+"Because you wished to build."
+
+He pointed toward the restored road.
+
+"She wished you to remember."
+
+The old Wyrak rested his hand upon the stone wall.
+
+"A road can be built in three summers."
+
+His fingers traced the weathered masonry.
+
+"But this road carried the memory of those who came before us."
+
+The mountain wind moved through the pines.
+
+"If we forget them, we become the first generation."
+
+He shook his head.
+
+"And the first generation always believes it is the wisest."
+
+For a long time neither spoke.
+
+Far above, clouds drifted around the peaks.
+
+The road remained.
+
+The forest remained.
+
+The mountain remained.
+
+And Hadrik finally understood what the elders meant when they taught that permanence is achieved not through conquest, but through restraint.
+
+The stone had waited.
+
+It had lost neither its purpose nor its truth.
+
+Only its witnesses.
+
+</div>
+
+
+##### The Wyvern
+
+Another critical aspect of mountain tradtion and lore within the Weald is shaped by the apex predators, the Wyvern.  The mountains of the Weald are shaped as much by wyverns as by stone or weather. Wyverns are not worshipped among the Cragwolds, nor are they regarded as simple beasts to be exterminated. They are understood instead as ancient territorial forces bound to the high ridges and deep valleys of the mountain interior.
+
+Entire settlements are planned around known wyvern flight paths. Children memorize the shadows and sounds of passing wings from an early age, and many mountain roads exist only because generations of Wyraks learned where wyverns refuse to nest or hunt.
+
+Among the ridge clans especially, wyverns are often viewed as part of the mountain’s own balance. Some believe the mountains themselves reject those who attempt to dominate them, and that the wyverns merely enforce this older law.
+
+
+
+
+#### Farming
+
+Agriculture among the Cragwolds is centered upon **RidgeFount**, the great mountain basin whose streams, terraces, and fertile valleys sustain much of the Weald. While outsiders often imagine the Cragwolds as hunters, herders, and highland warriors, most know that the strength of the mountains rests first upon the harvest. RidgeFount's sheltered slopes produce grains, root vegetables, orchard fruits, and hardy mountain herbs in quantities unmatched elsewhere in the Weald. Its villages supply food not only to neighboring valleys but also to distant settlements scattered throughout the range.
+
+Beyond RidgeFount, farming becomes more demanding. Along the escarpments and ridges, families carve terraces into steep hillsides where thin soils cling to the stone. Small communities tend hardy crops suited to the mountain climate while maintaining herds of goats that graze upon rocky slopes inaccessible to larger livestock. These villages rarely produce great surpluses, yet they are admired for their self-reliance and resilience.
+
+To the Cragwolds, farming is not merely labor but stewardship. A field is expected to endure for generations, and a well-kept terrace reflects the discipline of those who built it. Elders teach that the mountains provide only what folk are willing to preserve, and thus farmers are held in high regard throughout Cragwold society. Though miners, craftsmen, hunters, and warriors all contribute to the Weald, many Cragwolds quietly acknowledge that RidgeFount's farmers form the foundation upon which the rest of mountain life depends.
+
+
+#### Morality and Social Bonds
+
+Cragwold morality is rooted in stewardship, restraint, and obligation. A Cragwold is judged less by what they claim than by what they preserve: a terrace kept fertile, a path held open, a promise remembered, a craft passed down, a mountain village protected through winter. Wealth and strength are respected, but only when they serve continuity. Recklessness, waste, vanity, and needless destruction are treated as signs of immaturity, because to damage the land or weaken a community is to burden future generations.
+
+Social bonds among the Cragwolds are serious but not sentimental. Kinship matters, yet duty often extends beyond blood to village, craft-circle, ridge, herd, mine, song-line, or sworn companion. Elders, scholars, farmers, herders, and warriors each hold different forms of authority, but none are meant to stand apart from the whole. The highest praise for a Cragwold is not that they were bold, clever, or feared, but that others could depend on them when stone cracked, snow fell, or war came.
+
+
+#### Speech and Dialect
+
+Cragwold speech is deliberate and restrained compared to the faster and more emotional dialects of the lowlands. Many Wyraks consider excessive speech a sign of weak discipline, believing words should clarify meaning rather than conceal it. Long silences during conversation are common and rarely considered uncomfortable among mountain folk.
+
+Their language contains unusually precise terminology for stone, weather, elevation, rope tension, snowfall, and mountain formations. Some dialects possess dozens of distinct words for cliffs, passes, ridges, and unstable terrain, reflecting the importance of geography within Cragwold life.
+
+Among the contemplative traditions of Ternhaven, speech often becomes highly metaphorical, drawing comparisons between human behavior and natural forces.  
+
+> “Snow reveals the branch already bent.”  
+
+> “The cliff does not hate the falling man.”  
+
+The ridge clans of the Weald speak more harshly and directly, favoring concise commands and practical observations shaped by generations of survival in wyvern territory.
+
+#### Marriage and Family
+
+Marriage among the Cragwolds is generally viewed less as romantic union and more as the joining of paths, households, and responsibilities. Many Wyraks believe affection grows through endurance rather than passion alone, and long partnerships built upon trust and labor are deeply respected throughout the mountain ranges.
+
+Courtship traditions vary widely between the Cragwold traditions. Among the cultivator communities, marriages are often celebrated through large communal feasts tied to seasonal harvests and escarpment goat herd patterns. Among the contemplative mountain clans, unions are quieter affairs sometimes witnessed only by family elders or local wardens.
+
+Children are typically raised withing the tyupical family unit and among a larger communal family, especially within the harsher ridge settlements where survival depends heavily upon shared labor and mutual protection.
+
+
+#### Children and Games  
+
+Cragwold children are raised with unusual independence from an early age. By the time most can walk safely along narrow cliff paths, they are expected to contribute to household labor, carry supplies, and memorize local mountain routes and wyvern warnings.
+
+Children’s games among the Wyraks often reflect survival skills later required in adulthood. Stone-balancing contests, climbing races, memory games involving mountain paths, and silent tracking competitions are common throughout the Weald.
+
+Among the ridge clans, children sometimes play games involving shadows cast by circling wyverns, testing how quickly players can disappear beneath cover when danger approaches overhead.
+
+#### Death and Memory
+
+Cragwolds rarely fear death in the dramatic manner of the lowlands, though they do fear waste, disorder, and the loss of memory. Many believe individual lives are temporary expressions of larger patterns enduring far beyond any single generation.
+
+Burial practices differ across the mountain ranges. Some ridge clans leave their dead within high stone cairns overlooking ancient passes, allowing wind and weather to slowly reclaim the body. Others carve names and family histories directly into cliff walls or mountain halls preserved for centuries.
+
+Among the contemplatives, it is considered dishonorable to exaggerate the deeds of the dead. To many Wyraks, truth is the highest form of remembrance.
+
+#### Songs (of Stewardship and Cragwold Life)
+
+Cragwolds are preservationists by nature, though they disagree deeply about what exactly must be preserved. Most believe the mountains, forests, and ancient passes possess an order that should not be carelessly altered. Mining, over-expansion, and the destruction of old forests are often viewed with suspicion among the Wyraks.
+
+Some Cragwolds believe the forests strengthen and preserve the people who dwell among them. Others believe the Cragwolds themselves are guardians responsible for preserving the mountain wilderness against the excesses of the lowlands.
+
+Both views continue to shape the songs one hears in the Weald.
+
+#### Recap Table
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+### Kin Folk of the Weald
+
+<div class="image-scroll">
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-female-1.webp" >
+<h3>Wyvern Tracker</h3>
+<p>A seasoned mountain tracker following signs of wyvern passage through the high forests, reading broken branches, disturbed stone, and distant shadows overhead.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-female-2.webp" >
+<h3>Cliff Runner</h3>
+<p>A daring mountain climber trained to cross sheer cliffs and narrow ledges, carrying messages and supplies between isolated highland settlements.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-female-3.webp">
+<h3>Waymarker Keeper</h3>
+<p>An elder guardian of the mountain roads who tends ancient waymarkers, preserving routes, histories, and warnings passed down through generations.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-female-4.webp">
+<h3>Mountain Forager</h3>
+<p>A traveler of the high country gathering roots, berries, and alpine plants from the slopes, carrying knowledge of seasonal growth known to few others.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-female-5.webp" >
+<h3>Alpine Herbalist</h3>
+<p>A gatherer of mountain herbs and medicinal plants, harvesting the hardy flora that grows among the terraces and rocky uplands of the high peaks.</p>
+</div>
+
+
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-male-1.webp">
+<h3>Mountain Chronicler</h3>
+<p>A veteran traveler carrying maps, records, and supplies across the high ranges, preserving knowledge of distant valleys, passes, and forgotten roads.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-male-2.webp" >
+<h3>Watcher of the Peaks</h3>
+<p>A solitary mountain elder overlooking the homeland, studying the valleys below and the distant skies where wyverns still roam.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-male-3.webp" >
+<h3>Stonehall Keeper</h3>
+<p>A resident of the cliff-carved settlements, maintaining the mountain halls that shelter travelers, families, and generations of accumulated wisdom.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-male-4.webp" >
+<h3>Goat Shepherd</h3>
+<p>A mountain shepherd guiding hardy herds along steep ridges and alpine meadows, following routes established long before living memory.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/cragwold/cragwold-male-5.webp" >
+<h3>Memory Carver</h3>
+<p>An elder entrusted with preserving history through carved stone markers, recording journeys, agreements, and lessons for those who follow.</p>
+</div>
+
+</div>

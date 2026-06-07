@@ -1,0 +1,177 @@
+---
+title: "Oasis Scourge Documentation"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    css: "../site/styles/custom_styles.css"
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(inputFile, encoding = encoding, output_dir = "../site")
+  })
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+<!-- Complete Integrated Javascript Logic Engine -->
+```{r, echo=FALSE, results='asis'}
+cat('
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  const root = document.documentElement;
+  const btn = document.getElementById("themeBtn");
+  
+  // 1. Restore Dark Mode Theme Token
+  const savedTheme = localStorage.getItem("dashboardTheme");
+  if (savedTheme === "dark") {
+    root.setAttribute("data-theme", "dark");
+    if (btn) btn.innerHTML = "🌙 Dark Mode";
+  } else {
+    root.removeAttribute("data-theme");
+    if (btn) btn.innerHTML = "☀️ Light Mode";
+  }
+
+  // 2. FIX STATE RECOVERY: Force sidebar link highlighting to match the active URL hash on refresh
+  const currentHash = window.location.hash;
+  if (currentHash) {
+    // Strip default active highlights
+    document.querySelectorAll(".custom-nav-link").forEach(link => link.classList.remove("active"));
+    
+    // Find the link matching this precise browser hash and illuminate it
+    const activeLink = document.querySelector(`.custom-nav-link[href="${currentHash}"]`);
+    if (activeLink) {
+      activeLink.classList.add("active");
+    }
+  }
+});
+
+function toggleDashboardTheme() {
+  const root = document.documentElement;
+  const btn = document.getElementById("themeBtn");
+  const currentTheme = root.getAttribute("data-theme");
+  
+  if (currentTheme === "dark") {
+    root.removeAttribute("data-theme");
+    btn.innerHTML = "☀️ Light Mode";
+    localStorage.setItem("dashboardTheme", "light");
+  } else {
+    root.setAttribute("data-theme", "dark");
+    btn.innerHTML = "🌙 Dark Mode";
+    localStorage.setItem("dashboardTheme", "dark");
+  }
+}
+
+function styleSelectedTab(element) {
+  document.querySelectorAll(".custom-nav-link").forEach(link => link.classList.remove("active"));
+  element.classList.add("active");
+}
+</script>
+')
+```
+
+<!-- Dark Mode Interface Controller -->
+<div class="theme-switch-wrapper">
+  <button class="theme-switch-btn" id="themeBtn" onclick="toggleDashboardTheme()">🌙 Dark Mode</button>
+</div>
+
+
+Global Navigation {.sidebar data-width=400}
+=====================================
+
+### Navigation Options
+
+This persistent sidebar stays pinned to the left across all pages. The links above instantly switch views via native CSS without any flickering.
+
+Below are tabs for the Oasis Scourge and Wyvern's Mark regional cultures.   A regional culture is a unique culture defined not merely by regions, but whether enough material exists on the race within that region to warrant documentation here.   If a regional-race is not included, it does not mean irrelevance, but rather the game environment will disclose the cultural dynamics of the folk residing there.  
+
+<br>
+<hr>
+<br>
+
+
+<ul class="custom-nav-list">
+  <li><a href="#intro" class="custom-nav-link active" onclick="styleSelectedTab(this)">Introduction</a></li>
+  <li><a href="#hobbog-salt-willow" class="custom-nav-link" onclick="styleSelectedTab(this)">HobBogs of Salt-Willow</a></li>
+  <li><a href="#hobbog-duskreed" class="custom-nav-link" onclick="styleSelectedTab(this)">HobBogs of Dusk Reed</a></li>
+  <li><a href="#cragwold" class="custom-nav-link" onclick="styleSelectedTab(this)">Cragwolds of the Weald</a></li>
+  
+  <li><a href="#glenkin-dellari" class="custom-nav-link" onclick="styleSelectedTab(this)">Glenkin: The Delari Diaspora</a></li>
+  <li><a href="#glenkin-ashvari" class="custom-nav-link" onclick="styleSelectedTab(this)">Glenkin: The Ashvari of Glentali</a></li>
+  <li><a href="#songs-salt-willow" class="custom-nav-link" onclick="styleSelectedTab(this)">The Songs of Salt-Willow</a></li>
+</ul>
+
+
+Intro {#intro .hidden}
+=====================================
+
+```{r, child='01-intro.Rmd'}
+```
+
+
+HobBogs_Salt_Willow {#hobbog-salt-willow .hidden}
+=====================================
+
+```{r, child='02-hobbog-salt-willow.Rmd'}
+```
+
+
+
+HobBogs_Dusk_Reed {#hobbog-duskreed .hidden}
+=====================================
+
+```{r, child='03-hobbog-duskreed.Rmd'}
+```
+
+
+
+Cragwolds {#cragwold .hidden}
+=====================================
+
+```{r, child='04-cragwold.Rmd'}
+```
+
+
+
+
+
+
+Glenkin_Dellari {#glenkin-dellari .hidden}
+=====================================
+
+```{r, child='05-glenkin_dellari.Rmd'}
+```
+
+
+
+
+
+
+
+Glenkin_Ashvari {#glenkin-ashvari .hidden}
+=====================================
+
+```{r, child='06-glenkin_ashvari.Rmd'}
+```
+
+
+
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+
+#### Songs of Oasis Scourge
+
+Glenkin_Ashvari {#songs-salt-willow .hidden}
+=====================================
+
+```{r, child='20-songs-hobbogs-saltwillow.Rmd'}
+```
+
+
+
+
+

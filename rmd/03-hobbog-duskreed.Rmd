@@ -1,0 +1,340 @@
+```{r , include=FALSE}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+
+### HobBogs of Dusk Reed
+
+#### Overview
+
+Dusk Reed is the easternmost marsh-region of the Oasis Scourge. It is the homeland of the Deyves, a HobBog folk of reed-isles, poisoned waters, guarded channels, and old claims. In recent years, Dusk Reed has expanded its reach and profited from the wreckage left by the Goblin Wars, but its bitterness began long before its victories.
+
+For centuries, the Deyves sought to open their marsh to the harbors of the Scourge. They wanted canals, trade, and the right to grow beyond the stagnant waters that confined them. Coral Pass opposed them, arguing that Dusk Reed’s fouled waters could not be allowed to reach the sea. The Talirian court accepted that judgment. Salt-Willow, wealthy from trade and seated across the western isthmus, helped watch the western approach. With Coral Pass blocking the coastal route, Salt-Willow holding the western isthmus, and the Talirian court giving both positions force of law, Dusk Reed remained confined within the marsh it meant to expand.
+
+The Deyves saw the decree as subjugation and grew more bitter toward the court. They had a claim, and the claim was denied. They asked why Salt-Willow could prosper from the marsh while Dusk Reed was treated as a danger to be contained. They asked why Coral Pass could command the sea while Deyve boats rotted in channels that led nowhere. The answer they received was an extermination-level threat backed by the full power of Coral Pass and Middle Vale.
+
+So Dusk Reed waited. Spite hardened into policy. Grievance became doctrine. When the Goblin Wars broke Talirian power, the Deyves moved with the patience of a folk who had long prepared for the day their oppressors weakened. Their later violence was horrific, but it did not rise from emptiness. It rose from a marsh that believed it had been denied breath.
+
+And so life in Dusk Reed was shaped by its waters, the kingdom’s centuries-old decree, and their answer to an injustice they believed could no longer be ignored. Life in Dusk Reed became harsh. They still built their lives from the swamp and read its waterways, but older HobBog customs waned. Communal ties no longer bound them as they once had, individuality was suppressed by those more powerful, and their stories hardened into lessons of cruelty, suspicion, and hatred toward outsiders and especially to the Coral and Salt-Willow folk.
+
+> “Shiftiness is shelter that knows how to walk” transformed into “Shadiness is the refuge where strength abides.”
+
+For the Deyves, survival belongs to those strong enough to rule the marsh. The strongest show others how to dominate and subjugate. The waters are studied not for warning, but for the currents they can unleash.
+
+
+---
+
+
+#### The Land  
+
+Dusk Reed is a mangrove country of root-choked isles, reddish-brown channels, sulfurous pools, and drowned paths fed by underground rivers. The marsh sits low and heavy in the eastern Scourge, its waters thick with rot and mineral stain, its passages narrowed by tangled roots, silt, and tribal crossings. Travel here belongs to those who know which channels breathe, which pools sicken, and which landing places are watched.
+
+Dusk Reed divides itself through channels rather than roads. Root-isles, mud platforms, and half-drowned banks form the places where tribes settle, guard, and vanish. Some passages are wide enough for raiding skiffs; others shrink into mangrove tunnels where poles, hands, and knowledge of the current matter more than maps. A landing that looks abandoned may belong to a household, a tribe, or a watching post hidden behind the roots.
+
+The older heart of Dusk Reed belongs to the Siltveins, whose root-isles and guarded channels formed the old ruling order before the Goblin Wars. Murkwillow power grew along the stronger routes after their alliance with the Crownless King, spreading through the passages that carried raids, tribute, captives, and war goods westward. Around them, the Mireborn have become the rising force of the new Dusk Reed, while the Mangleshades survive in the poorer margins of the marsh, pressed between old rule and the conquest taking shape around them.
+
+Dusk Reed’s land favors patience, concealment, and possession. Its channels teach control before welcome. Its pools punish careless movement. Its root-isles make every settlement feel held, watched, and claimed. To outsiders, the marsh is a maze of poisoned water and hostile silence. To the Deyves, it is proof that strength belongs to those who can master what others fear to enter.
+
+<br>  
+
+
+<div class="map-card">
+<img src="images/hobbog-duskreed/dusk-reed.webp" >
+<p>The Boglets of Dusk Reed</p>
+</div>
+
+<br>  
+
+---
+
+#### The Goblin Wars
+
+Long before the Goblin Wars, Dusk-Reed had already turned against the Talirian order and the provincial seats that enforced it. Coral Pass and Middle Vale gave the court’s threats military weight, while Salt-Willow, the dominant wetland power within Oasis Scourge, guarded the western isthmus and benefited from the same decrees. Together, they confined Deyve ambition for centuries, and the marsh grew hostile to every authority that claimed power over its future.
+
+When the Goblin Wars reached the Scourge, the Murkwillow tribe aligned itself with the Crownless King. They admired his ruthlessness and saw in his invasion the chance to break the structures that had restrained Dusk-Reed for generations. Their choice changed the marsh permanently. Dusk-Reed assisted the Crownless King in his march toward Middle Vale, launching diversionary assaults and decoy sorties against Salt-Willow as he advanced westward through the passes between the Cragwold Fount and Salt-Willow. This opened a safer and faster passage, bringing the war to Middle Vale earlier than expected.
+
+After the war ended and the Goblin army was decimated, the Crownless King did not remain in Dusk-Reed by preference alone. Disgraced, hunted, and unable to return safely to the goblin deserts, he made the eastern marsh his refuge and weapon. His ambitions made safe return impossible. He remained in Dusk-Reed, took Deyve wives, and fathered new hybrid bloodlines. From this came the Mireborn, whose rise reshaped Dusk-Reed around conquest, expansion, and rule through terror.
+
+In the years that followed, the Crownless King secured his position among the Murkwillows and used the enslaved Verdant Glenkin as part of a broader design against Glentali Lake. Through Pale Hymn indoctrination, these captives were remade into what would become known as the Ashverin. They were offered freedom, settlement, and purpose, but only through complete submission to the doctrine that had been placed before them. Dusk-Reed did not revere Pale Hymn as sacred truth. The Deyves treated it as an instrument: a doctrine that could break captives, reorder the wounded, and turn freed slaves into loyal proxy settlements.
+
+The Dellari return was slow and dangerous. Glentali Lake had not merely been emptied; it had been broken. Bridges, levees, aqueducts, canals, and fields had to be reclaimed from ruin, while scattered goblin remnants and old garrisons still made the basin unsafe for a fragmented people without soldiers or supply lines.
+
+A little more than a decade after the war had ended, the Ashverin were sent into the Glentali Lake region to claim it as their own. There they drove out, captured, or scattered the few Dellari who had already begun returning from RidgeFount and the surrounding mountain refuges. They rebuilt the farms, raised militias, and established a new order over the basin once held by the Dellari, the original Glentali Glenkin who had lived there for centuries. The remaining free Dellari resisted where they could, but they were fragmented, weakened, and poorly matched against Ashverin organization, Pale Hymn support, and Dusk-Reed design. Within a generation, the breadbasket of Oasis Scourge lived again, but under a new folk, a new memory, and a new lie.
+
+In the decades that followed, the old Siltvein order weakened. The Murkwillows and their Mireborn offspring displaced them through violence, Pale Hymn networks, and growing influence across the western mudflats and Glentali lands. The Mangleshades, caught between the old tribes and the new order, now survive along the margins of a marsh increasingly ruled by conquest.
+
+
+#### Tradition and Lore
+
+Deyve lore is carried in low fireside tellings, warning chants, and old marsh tales spoken by mothers, raiders, and root-keepers. The stories are rarely gentle. They teach children which pools to fear, which roots to avoid, which voices in the mangroves belong to kin, and which belong to something wearing a familiar sound.
+
+One common tale speaks of the Backward Walker, a marsh thing with bent legs, wet hair, and feet turned the wrong way. It calls from beyond the roots in the voice of someone loved. Children who follow it are found days later standing silent in red water, their mouths full of reeds.
+
+Another tells of the Bride Beneath the Roots, a beautiful woman seen beside still pools before raids, fevers, and betrayals. Some say she warns the strong. Others say she lures the weak into water that remembers every cowardice.
+
+Deyve traditions grow from these tales. Children are taught to read footprints before voices. Skiffs carry root charms against false callers. Warriors stain their hands before entering watched channels. A household that survives betrayal may carve backward feet beneath its door-post, warning visitors that deception has already been answered there.
+
+
+
+#### Swamping
+
+Swamping in Dusk Reed is harsh, narrow, and often dangerous. It is the work of drawing use from mangrove root, red channel, sulfur pool, mudbank, fish-run, fungus shelf, and drowned path.
+
+A skilled Deyve swamper knows which pools can be touched, which vapors sicken the lungs, which roots hold weight, which mud will swallow a careless foot, and which channels carry a skiff quietly beneath the mangrove press. This knowledge feeds households, guides raiders, supplies poisons, and marks the difference between those who belong to the marsh and those who are taken by it.
+
+Dusk Reed provides fish, alligators, eels, bitter fungi, red-stained reeds, root fibers, venomous insects, marsh medicines, rot-poisons, shell, bone, hides, and mangrove timber. These goods move first through household hands, then through tribal claims, tribute routes, raiding stores, and hidden exchanges along guarded passages.
+
+Swamping also teaches a Deyve how to read danger. A broken reed may show passage. A still pool may carry sickness. A root-scratch may mark a hidden landing. A sour smell in the mist may warn of bad water ahead. Every useful place in Dusk Reed has an owner, a watcher, or a story attached to it.
+
+Most Deyves live among root-isles, mud platforms, mangrove tunnels, and half-drowned banks held by household, tribe, or force of reputation. A boglet survives because its folk know which channels to guard, which stores to hide, which crossings to claim, and which paths to erase before enemies learn them.
+
+Good swamping earns respect because it turns hardship into power. It makes poison useful, silence protective, hunger temporary, and territory enforceable. To swamp well in Dusk Reed is to prove that the marsh can be mastered.
+
+
+#### Morality and Social Bonds
+
+Deyve morality begins with strength. A thing is judged by what it proves: power, nerve, endurance, usefulness, and the ability to command respect. A weak act invites pressure. A strong act creates standing. Respect sits at the center of Deyve society, shaping household bonds, tribal loyalty, marriage ties, debts, rivalries, and rule. 
+
+Family is protected, but protection carries weight. A child, mate, sibling, or elder belongs within the household’s strength. To feed them, shield them, avenge them, and raise their status brings honor. To leave them exposed brings shame. Affection exists, but it rarely stands apart from duty, reputation, and usefulness.
+
+Tribal bonds are harder still. A Deyve may quarrel, scheme, or challenge within the tribe, yet betrayal that weakens the tribe before outsiders carries lasting disgrace. Ambition is expected. Cowardice is despised. Leadership must be held through fear, reward, victory, and the visible ability to keep rivals beneath control.
+
+Debt in Dusk Reed moves through obligation and leverage. A favor creates a hook. A rescue creates a claim. Food given during hunger may return as labor, silence, tribute, or service in a raid. Generosity exists, but it is rarely innocent. A gift may bind tighter than a threat.
+
+Strangers receive little protection from Deyve custom. Outsiders are judged by use, risk, and strength. A merchant may be tolerated, a captive traded, a trespasser punished, and a frightened traveler stripped of anything worth taking. Mercy can be shown, but mercy must serve status, strategy, or command.
+
+
+#### Speech and Dialect
+
+Deyve speech keeps HobBog rhythm: bent phrasing, repeated words, added endings, and sounds that gather near the front of a thought. They say I’s, you’s, takes, coulds, wents, and young’uns. Their words still move sideways, but the purpose is position. A Deyve listens for rank, debt, fear, claim, and weakness before answering.
+
+The added sounds matter. In ordinary speech, the s comes early or runs through the phrase. “Muds waitings for a foot.” That is warning, insult, or judgment. When anger rises, the ending hardens: “Muds waitings for a foots.” When a Deyve grows quiet and the early endings vanish, the danger is greater. “Mud waiting for a foots.” That final sound means the thought has sharpened past insult.
+
+Their sayings carry claim, suspicion, and rank. A coward is “muds waitings for a foot.” A hidden rival is “roots with teeths.” A patient enemy is “still waters holdings hunger under.” A fool who talks too much is “a frog singings for the herons.” A frightened liar is “fears showings through the reeds.”
+
+Conversation among Deyves is a test of position. A phrase may sound simple, but it asks who owns the crossing, who owes the debt, who fears the answer, and who has the right to speak first. Their words circle because circling gives time to measure the listener. A repeated phrase may become heavier the second time, closer to threat.
+
+Affection is guarded but present. A mother may say, “You’s stood good,” and mean pride, warning, and expectation. A mate may say, “I keeps your knifes dry,” and mean devotion. A brother may say, “Yous fear showed small,” and mean praise. Deyve care often arrives as judgment softened by who is allowed to hear it.
+
+To speak like a Deyve is to speak with HobBog rhythm under Deyve pressure. Words do not merely carry feeling. They carry rank, claim, debt, and consequence.
+
+
+
+#### Marriage and Family
+
+Deyve courtship begins with proof. Attraction may start with beauty, voice, skill, or boldness, but a bond gains weight only when one Deyve sees how another holds ground under pressure. A steady hand in bad water, a clean answer to insult, a debt paid without pleading, or a raid survived with nerve may speak more strongly than open affection.
+
+Love among the Deyves is tied to standing. A partner is judged by what they strengthen: household, tribe, reputation, stores, children, territory, and future claim. Desire alone is rarely trusted. A Deyve may admire charm, cleverness, or hunger for power, but lasting attachment forms around usefulness, endurance, and the ability to protect what belongs to the bond.
+
+Family is protected fiercely, but protection carries expectation. A mate is not merely cherished; they are defended, tested, answered for, and sometimes used to bind households into larger tribal power. A weak joining can lower standing. A strong joining can settle debts, join rival lines, secure guarded crossings, or place a household closer to authority.
+
+Marriage gifts in Dusk Reed carry claim and leverage. A family may give weapons, poison stores, skiff rights, hidden landing access, cured hides, red-stained reeds, alligator teeth, tribute shares, or guarded passage through a channel. Such gifts rarely speak only of generosity. They announce what each side controls, what each side can offer, and what each side may demand later.
+
+The joining itself is usually witnessed by household elders, tribal speakers, and those whose debts or claims are touched by the bond. The couple may stand beside a marked channel, a root-post, a skiff rail, or a fire set low beneath mangrove shelter. Names are spoken, debts are named, gifts are shown, and the strength of both households is made visible.
+
+A common marriage sign is the held passage. The pair crosses a narrow plank, skiff board, or root-bridge together while witnesses watch. The act means they have agreed to hold one path between them: against hunger, insult, rival claim, sickness, and enemy approach. If either stumbles, the witnesses remember. If both cross cleanly, the bond begins with approval.
+
+Deyve marriages can hold affection, but affection is guarded. A good union does not make either partner softer in public. It gives each more force. A mate may shield another’s weakness from outsiders, answer insult before it spreads, keep a weapon dry, hide stores before famine, or remember which enemy still owes blood. Love is proven through action, possession, defense, and return.
+
+A strong Deyve marriage raises the household’s standing. It gives children a sharper place in the tribe, strengthens claims to water and passage, and binds private loyalty to public reputation. Among the Deyves, marriage is not escape from struggle. It is a pact to survive with greater force.
+
+
+
+#### Children and Games
+
+Deyve children grow under watch, expectation, and early testing. They wander root-isles, mud platforms, skiff poles, mangrove tunnels, and half-drowned banks, but their freedom is measured by danger. A young’un learns quickly which pools sicken, which roots hold weight, which voices deserve answer, and which older children have earned the right to command a game.
+
+Play in Dusk Reed teaches position. A chase through the mangroves may become a test of who can vanish fastest. A balance game across wet roots may become a trial of nerve. A hiding game may turn serious when one child claims a crossing and dares the others to pass without permission. The strongest children learn to lead. The cleverest learn to bend the rules without being caught. The weakest learn where to stand, whom to follow, and when silence protects them.
+
+One common game is called **Backward Walker**. Children mark false tracks in mud, turning heels and toes the wrong way to confuse the seeker. The seeker must read the drag of the foot, the root-scratch, the broken reed, and the weight of the print to find the true path. A child who follows the shape alone loses. A child who reads the mud correctly earns praise.
+
+Other games grow from claim and warning. Young’uns build tiny guarded crossings from sticks, shells, and mangrove roots, then argue over who owns the passage. They stain skiff scraps red and dare one another to touch sickly pools with a pole-tip. They practice call-and-answer phrases from behind roots, learning to distrust any voice that comes too easily.
+
+Deyve childhood is full of this kind of play: tracking, testing, hiding, claiming, daring, and watching. The games teach more than courage. They teach children how fear moves through a group, how command is taken, how debt begins, and how danger can be turned against someone slower to understand it. In Dusk Reed, a game is rarely only a game for long.
+
+
+
+#### Death and Memory
+
+Deyves believe the dead sink into the red mud beneath Dusk Reed.
+
+At death, the final breath is taken by the marsh and drawn downward through root, silt, and poisoned water. The dead do not drift away. They remain underfoot, pressed into the channels, pools, crossings, and root-isles their lives helped claim.
+
+A strong death leaves weight behind. A feared mother, a raider, a tribe-speaker, a poisoner, or a child who endured sickness may become part of the place where they fell or were buried. A crossing can carry a dead fighter’s name. A pool may be avoided because a cruel elder was given to it. A root-post may be marked when a household believes one of its own still watches there.
+
+Deyves speak carefully near burial mud. They do not soften the dead into comfort. A good dead one should still have force. They should guard a claim, sour an enemy’s path, strengthen a household, or remind the living that weakness leaves little behind.
+
+After death, families may press red mud onto skiff rails, door-posts, spear hafts, or pole handles. The mark does not ask the dead to rest. It asks them to remain useful.
+
+To the Deyves, death is not release. It is possession carried deeper. The body returns to the marsh, the name remains with the household, and the strongest dead abide in the places their folk still dare to hold.
+
+
+#### Songs
+
+Dusk Reed songs make fear feel useful. A red pool, a bent root, a watched crossing, or a skiff moving without lantern-light can carry the weight of rank, warning, hunger, revenge, and command.
+
+Many Deyve songs are low, narrow, and repetitive, built for breath control and night movement through mangrove channels. A raiding song may begin as a murmur beneath the oars, then tighten into a hard rhythm as the skiffs near a landing. A household song may praise a parent, fighter, poisoner, or swamper by naming what they held, what they survived, and what others feared to take from them.
+
+The old children’s songs carry the Backward Walker through the roots. Bent feet, wrong tracks, false voices, and red pools teach young’uns to read mud before sound. A playful tune can turn cruel by the final verse, reminding the child that laughter ends quickly when the marsh answers back.
+
+Work songs belong to swamping, poison-making, hide-scraping, and skiff repair. Their rhythms keep hands steady through bitter labor. A root-fiber chant may name each knot as it is tightened. A poison song may mark each drop, shell, scrape, and boil, so the maker keeps count without speaking plainly.
+
+War songs rose in force after the Goblin Wars. Murkwillow singers praise the skiffs that moved through hidden channels, the raids that drew Salt-Willow eyes westward, and the Crownless King who broke the old order open. Mireborn songs are harsher still, filled with conquest, inheritance, and the claim that Dusk Reed’s future belongs to those strong enough to seize it.
+
+Deyve songs rarely seek comfort. They steady the hand, harden the child, honor the feared, mock the weak, and keep old threats sharp. A crossing can become a warning. A pool can become a judge. A root can become a tooth. A voice in the mangroves can become the last thing a fool follows.
+
+
+
+```{r}
+
+recap_table <- data.frame(
+  Section = c(
+    "Overview",
+    "The Land",
+    "The Goblin Wars",
+    "Tradition and Lore",
+    "Swamping",
+    "Morality and Social Bonds",
+    "Speech and Dialect",
+    "Marriage and Family",
+    "Children and Games",
+    "Death and Memory",
+    "Songs"
+  ),
+  `Dusk Reed Deyves` = c(
+    "Easternmost marsh-region of the Oasis Scourge; a Deyve homeland shaped by poisoned waters, blocked ambition, tribal power, and hardened grievance.",
+    
+    "Mangrove country of root-choked isles, reddish-brown channels, sulfurous pools, drowned paths, tribe-held crossings, and watched landings.",
+    
+    "The Murkwillow tribe aided the Crownless King against Taliria, distracting Salt-Willow and helping speed the war toward Middle Vale; afterward, the Mireborn rose within Dusk Reed.",
+    
+    "Deyve lore centers on frightening marsh tales, false voices, bent tracks, red pools, root-haunted places, and stories that teach fear, caution, rank, and survival.",
+    
+    "Harsh marsh work: fish, alligators, eels, bitter fungi, red-stained reeds, root fibers, venomous insects, medicines, rot-poisons, shell, bone, hides, and mangrove timber.",
+    
+    "Morality is built around strength, respect, household protection, tribal loyalty, debt, leverage, reputation, and the ability to defend what one claims.",
+    
+    "HobBog rhythm shaped by Deyve pressure: added s-endings, rank-heavy phrasing, claim, threat, debt, position, and anger shown through where the final hiss lands.",
+    
+    "Marriage begins with proof: standing, endurance, household strength, guarded affection, useful gifts, public reputation, and the ability to hold a shared path.",
+    
+    "Young’uns learn through tracking, hiding, claiming, daring, guarded crossings, Backward Walker games, call-and-answer phrases, and tests of fear and command.",
+    
+    "The dead are returned to mud, roots, red pools, burial channels, skiff rails, door-posts, and marked places tied to household, tribe, claim, and warning.",
+    
+    "Songs are low, narrow, repetitive, and useful: raiding songs, work chants, poison songs, Backward Walker children’s songs, war songs, and songs of fear, rank, and command."
+  ),
+  check.names = FALSE
+)
+
+kbl(
+  recap_table,
+  caption = "Recap Table",
+  align = c("l", "l"),
+  escape = FALSE
+) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) %>%
+  column_spec(1, width = "12em", bold = TRUE) %>%
+  column_spec(2, width = "60em")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+### Kin Folk of the Bogs
+
+<div class="image-scroll">
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-female-1.webp" >
+<h3>Deyve Lookout</h3>
+<p>A young Deyve watcher stationed along the hidden trails of Dusk Reed, keeping watch over strangers, rivals, and opportunities moving through the marsh.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-female-2.webp" >
+<h3>Reed Court Aspirant</h3>
+<p>A rising member of the Dusk Reed hierarchy, seeking influence through alliances, intimidation, and the careful cultivation of personal power.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-female-3.webp" >
+<h3>Net Mistress</h3>
+<p>A fisher of the stagnant channels, casting woven nets into the dark waters that feed the settlements scattered throughout the marsh.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-female-4.webp" >
+<h3>Marsh Gatherer</h3>
+<p>A collector of roots, fungi, and reeds harvested from the flooded bogs, supplying materials used throughout the Dusk Reed settlements.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-female-5.webp" >
+<h3>Cypress Huntress</h3>
+<p>A skilled hunter accustomed to stalking prey through the tangled mangroves and drowned forests that surround the Dusk Reed strongholds.</p>
+</div>
+
+
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-male-1.webp" >
+<h3>Reed Spearbearer</h3>
+<p>A hardened Deyve warrior tasked with patrolling the outer marshes, where rival tribes, raiders, and intruders often test the borders.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-male-2.webp" >
+<h3>Bog Whisperer</h3>
+<p>An elder familiar with the hidden paths and forgotten places of the marsh, sought for guidance, secrets, and hard-earned knowledge.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-male-3.webp" >
+<h3>Fen Reader</h3>
+<p>A tracker trained to interpret signs left in mud, water, and reeds, capable of following a trail long after others would lose it.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-male-4.webp">
+<h3>Channel Ferryman</h3>
+<p>A boatman navigating the flooded waterways of Dusk Reed, carrying folk and cargo through channels known only to the marsh-born.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-duskreed/duskreed-male-5.webp" >
+<h3>Marsh Pathfinder</h3>
+<p>A seasoned traveler of the deep bogs, carrying supplies and messages between distant settlements hidden throughout the wetlands.</p>
+</div>
+
+</div>

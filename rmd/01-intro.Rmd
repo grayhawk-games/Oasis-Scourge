@@ -3,9 +3,9 @@ Column
 
 ### Introduction
 
-#### 📋 Project Note & Attributions 
+#### 📋 Project Copyright & Attributions
 
-<p style="color: #555555; margin-top: 10px; margin-bottom: 20px;">All worldbuilding lore, text, mechanics, and narrative concepts are original works by <strong>Stephen Katz</strong>, operating as <a href="https://github.com/grayhawk-games" style="color: #2f81f7; text-decoration: none;">grayhawk-games</a> (All Rights Reserved). Visual artwork embedded throughout this documentation is generated via <strong>Midjourney</strong>, and soundtracks are generated via <strong>Suno.com</strong>, both based on original creative prompts, direction, and thematic designs by <strong>Stephen Katz</strong>.</p>
+<p style="color: #555555; margin-top: 10px; margin-bottom: 20px; line-height: 1.5;">All worldbuilding lore, text, mechanics, and narrative concepts are original works by <strong>Stephen Katz</strong>, operating as grayhawk-games (<a href="https://grayhawk-games.github.io/Oasis-Scourge" style="color: #2f81f7; text-decoration: underline; font-weight: bold;">All Rights Reserved - Link to Full Copyrights</a>). Visual artwork embedded throughout this documentation is generated via <strong>Midjourney</strong>, and soundtracks are generated via <strong>suno.com</strong>, both based on original creative prompts, direction, and thematic designs by <strong>Stephen Katz</strong>.</p>
 
 
 

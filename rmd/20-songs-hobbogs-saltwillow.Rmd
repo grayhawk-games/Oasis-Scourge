@@ -12,7 +12,6 @@ Column {data-width=700}
 
 ### Songs of Salt-Willow
 
-
 #### Introduction
 
 Music occupies a central place in the cultural life of Salt-Willow. It preserves stories, carries memory between generations, strengthens communal bonds, and gives voice to emotions that are often difficult to express directly. A FogWisp may learn as much about their people through song as through formal teaching, for the songs of the marsh carry lessons about home, belonging, loss, resilience, and the living world that surrounds them.

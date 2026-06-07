@@ -1,7 +1,8 @@
 <!-- EXCLUSIVE COPYRIGHT NOTICE -->
 <div align="center">
-  <img src="https://shields.io" alt="Copyright All Rights Reserved">
+  <img src="https://img.shields.io/badge/©%202026-Stephen%20Katz-darkgreen?style=for-the-badge&logo=shield&logoColor=white" alt="copyright all rights reserved">
 </div>
+
 
 ## ⚠️ Proprietary Content & Copyright Notice
 

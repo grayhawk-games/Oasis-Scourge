@@ -1,6 +1,6 @@
 <!-- EXCLUSIVE COPYRIGHT NOTICE -->
 <div align="center">
-  <img src="https://shields.io" alt="Copyright All Rights Reserved">
+  <img src="https://shields.io" alt="copyright all rights reserved">
 </div>
 
 ## ⚠️ Proprietary Content & Copyright Notice

@@ -443,6 +443,54 @@ Both views continue to shape the songs one hears in the Weald.
 
 #### Recap Table
 
+```{r}
+recap_table <- data.frame(
+  Section = c(
+    "Overview",
+    "The Land",
+    "The Goblin Wars",
+    "Tradition and Lore",
+    "Farming",
+    "Morality and Social Bonds",
+    "Speech and Dialect",
+    "Marriage and Family",
+    "Children and Games",
+    "Death and Memory",
+    "Songs"
+  ),
+  `Cragwolds / Wyraks` = c(
+    "Mountain folk shaped by escarpments, forests, stone ridges, old roads, wyvern skies, patience, endurance, and clan memory.",
+    "The Southern Weald is defined by Crown-Watch, the Ternwall Range, RidgeFount, high passes, forested basins, and dangerous wyvern territory.",
+    "The Goblin Wars fractured Cragwold unity, dividing those who aided Oasis Scourge from those who believed the Weald should have withdrawn into the mountains.",
+    "Tradition centers on preservation: old roads, archives, star charts, ruins, stone memory, restrained land-use, and the duty to keep what came before.",
+    "RidgeFount sustains the Weald through terraces, grains, roots, orchards, herbs, goat herds, mountain villages, and careful seasonal labor.",
+    "Morality is rooted in stewardship, restraint, obligation, continuity, promise-keeping, craft, village protection, and service to future generations.",
+    "Cragwold speech is deliberate, restrained, precise, silence-comfortable, rich in mountain terms, and often shaped by stone, weather, elevation, and warning.",
+    "Marriage joins paths, households, and responsibilities; affection is expected to deepen through labor, endurance, trust, family, and shared protection.",
+    "Children learn independence early through route memory, cliff-path safety, climbing games, stone-balancing, tracking, labor, and wyvern-warning drills.",
+    "The dead are remembered through cairns, cliff carvings, mountain halls, truthful memory, family histories, and resistance to exaggeration.",
+    "Songs preserve stewardship, mountain order, forest guardianship, suspicion of waste, and the Cragwold debate over what must be protected."
+  ),
+  check.names = FALSE
+)
+
+kbl(
+  recap_table,
+  caption = "Recap Table",
+  align = c("l", "l"),
+  escape = FALSE
+) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) %>%
+  column_spec(1, width = "18em", bold = TRUE) %>%
+  column_spec(2, width = "52em")
+
+```
+
+
+
 
 
 Column {data-width=300}

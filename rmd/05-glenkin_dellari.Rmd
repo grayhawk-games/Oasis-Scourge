@@ -11,6 +11,13 @@ library(dplyr)
 Column {data-width=700}
 -----------------------------------------------------------------
 
+<div style="background-color: #fff8f2; border-left: 4px solid #f0883b; padding: 12px; margin-bottom: 25px; border-radius: 4px; font-family: sans-serif;">
+  <span style="color: #f0883b; font-weight: bold; font-size: 1.1em;">🚧 Work in Progress</span>
+  <p style="margin: 5px 0 0 0; color: #555555; font-size: 0.95em; line-height: 1.4;">
+    This section of the <em>Taliria</em> project documentation is currently being written and reviewed. Content, lore details, and asset placements are subject to change.
+  </p>
+</div>
+
 
 ### The Dellari Glenkin
 

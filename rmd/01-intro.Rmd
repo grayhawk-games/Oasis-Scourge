@@ -3,6 +3,14 @@ Column
 
 ### Introduction
 
+<div style="background-color: #fff8f2; border-left: 4px solid #f0883b; padding: 12px; margin-bottom: 25px; border-radius: 4px; font-family: sans-serif;">
+  <span style="color: #f0883b; font-weight: bold; font-size: 1.1em;">🚧 Work in Progress</span>
+  <p style="margin: 5px 0 0 0; color: #555555; font-size: 0.95em; line-height: 1.4;">
+    This section of the <em>Taliria</em> project documentation is currently being written and reviewed. Content, lore details, and asset placements are subject to change.
+  </p>
+</div>
+
+
 #### 📋 Project Copyright & Attributions
 
 <p style="color: #555555; margin-top: 10px; margin-bottom: 20px; line-height: 1.5;">All worldbuilding lore, text, mechanics, and narrative concepts are original works by <strong>Stephen Katz</strong>, operating as grayhawk-games (<a href="https://grayhawk-games.github.io/Oasis-Scourge" style="color: #2f81f7; text-decoration: underline; font-weight: bold;">All Rights Reserved - Link to Full Copyrights</a>). Visual artwork embedded throughout this documentation is generated via <strong>Midjourney</strong>, and soundtracks are generated via <strong>suno.com</strong>, both based on original creative prompts, direction, and thematic designs by <strong>Stephen Katz</strong>.</p>

@@ -254,68 +254,64 @@ Column {data-width=300}
 
 ### Kin Folk of the Bogs
 
-<div class="image-scroll">
-
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-1.webp" >
-<h3>Salt-Willow Gatherer</h3>
-<p>A young marsh gatherer of the Salt-Willow clans, carrying woven reed baskets filled with herbs, roots, and river moss harvested from the flooded wetlands.</p>
+<img src="images/hobbog-saltwillow/HobBog-Female-1.webp">
+<h3>Reed Gatherer</h3>
+<p>A young Salt-Willow gatherer carrying roots, reeds, and marsh plants gathered from the shallow wetlands around her home.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-2.webp" >
-<h3>Dusk Reed Initiate</h3>
-<p>A stern young Deyve of the Dusk Reed tribes, trained from childhood to watch the drowned forests and defend the hidden channels of the southern marshes.</p>
+<img src="images/hobbog-saltwillow/HobBog-Female-2.webp">
+<h3>Market Quay</h3>
+<p>Salt-Willow traders meeting over baskets of fish, roots, herbs, and marsh goods in one of the village markets built above the water.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-3.webp" >
-<h3>Marsh Widow</h3>
-<p>A quiet ferry-clan woman who guides travelers through the cypress swamps, speaking little and remembering every channel by heart.</p>
+<img src="images/hobbog-saltwillow/HobBog-Female-3.webp">
+<h3>Net-Bearer</h3>
+<p>A marsh fisher carrying woven nets used to gather fish, eels, and river life from the deeper channels of the fen.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-4.webp" >
-<h3>Net-Bearer of Salt-Willow</h3>
-<p>A pale marsh fisher carrying handwoven eel nets used in the deep cypress waters where few outsiders dare to travel.</p>
+<img src="images/hobbog-saltwillow/HobBog-Female-4.webp">
+<h3>Ferry Clan Elders</h3>
+<p>Respected elders of the ferry clans, whose knowledge of hidden channels, village ties, and old obligations helps bind the many communities of Salt-Willow together.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobbog-female-5.webp" >
-<h3>Cypress Court Huntress</h3>
-<p>A young huntress of the Cypress wilds, known for tracking swamp predators through flooded cypress islets.</p>
-</div>
-
-
-<div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobBog-male-1.webp" >
-<h3>Salt-Willow Poleman</h3>
-<p>A lean marsh traveler of the Salt-Willow clans, guiding shallow reed boats through flooded channels with long cypress poles and handwoven gear.</p>
-</div>
-
-
-<div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobBog-male-2.webp" >
-<h3>Salt-Willow Poleman</h3>
-<p>A lean marsh traveler of the Salt-Willow clans, guiding shallow reed boats through flooded channels with long cypress poles and handwoven gear.</p>
+<img src="images/hobbog-saltwillow/HobBog-Female-5.webp">
+<h3>Storykeeper</h3>
+<p>An elder passing memory to children through spoken tales, teaching them the names, duties, and old lessons of Salt-Willow.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobBog-male-3.webp" >
-<h3>Salt-Willow Tracker</h3>
-<p>A hardened Willow tracker known for stalking the sulfur bogs where Dusk Reed incursions often happen.</p>
+<img src="images/hobbog-saltwillow/hobbog-male-1.webp">
+<h3>Fen Watcher</h3>
+<p>A lean marsh watcher moving through the flooded forests, alert to travelers, predators, and trouble along the hidden channels.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobBog-male-4.webp" >
-<h3>Marsh Hunter of Dusk Reed</h3>
-<p>A grim swamp hunter of the Dusk Reed tribes, carrying carved marsh spears and patrolling the deeper mangrove territories.</p>
+<img src="images/hobbog-saltwillow/hobbog-male-2.webp">
+<h3>Elder Council</h3>
+<p>Salt-Willow elders gathered in counsel, settling disputes, weighing old memories, and deciding what the village owes its kin.</p>
 </div>
 
 <div class="scroll-card">
-<img src="images/hobbog-saltwillow/hobBog-male-5.webp" >
-<h3>Mangrove Channel Ferryman</h3>
-<p>An older marsh ferryman who navigates hidden reed and mangrove channels using long boating poles and generations of remembered waterways.</p>
+<img src="images/hobbog-saltwillow/hobbog-male-3.webp">
+<h3>Village Elder</h3>
+<p>An older HobBog whose weathered face and carried tokens mark long service to family, ferry routes, and village memory.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-male-4.webp">
+<h3>Marsh Lesson</h3>
+<p>A father teaches his child that those who come from the bog may share in its bounty when need is greater than ownership.</p>
+</div>
+
+<div class="scroll-card">
+<img src="images/hobbog-saltwillow/hobbog-male-5.webp">
+<h3>Ferry Patrol</h3>
+<p>A Salt-Willow boatman guides passengers through dangerous channels, they encounter and save an escaped Glenkin slave child from Dusk Reed.</p>
 </div>
 
 </div>

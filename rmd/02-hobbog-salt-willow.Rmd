@@ -12,7 +12,7 @@ Column {data-width=700}
 -----------------------------------------------------------------
 
 
-### HobBogs of Salt-Willow
+### HobBogs of Salt-Willowssss
 
 #### Overview
 
@@ -375,8 +375,6 @@ kbl(
 
 Column {data-width=300}
 -----------------------------------------------------------------
-
-Use these replacements:
 
 ### Kin Folk of the Bogs
 

@@ -1,0 +1,146 @@
+:root {
+  /* LIGHT MODE CONFIGURATION */
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --navbar-bg: #1e2d3d;;
+  --navbar-text: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: #e2e2e2;
+  --card-header: #f5f5f5;
+  --card-header-text: #6b7f8a;
+  --sidebar-bg: #f8f9fa;
+  --btn-inactive-text: #333333;
+  --btn-active-bg: #1e2d3d;     /* Selected Tab Background Color (Light Mode) */
+  --btn-active-text: #ffffff;   /* Selected Tab Text Color (Light Mode) */
+  --btn-hover-bg: #e2e6ea;      /* Hovered Tab Background Color (Light Mode) */
+  --h4-color: blue;
+  --strong-color: #5a6b7a;
+}
+
+[data-theme="dark"] {
+  /* DARK MODE CONFIGURATION */
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --navbar-bg: #1a1a1a;
+  --navbar-text: #ffffff;
+  --card-bg: #1e1e1e;
+  --card-border: #333333;
+  --card-header: #2d2d2d;
+  --card-header-text: #a0b0b8;
+  --sidebar-bg: #181818;
+  --btn-inactive-text: #aaaaaa;
+  --btn-active-bg: #3a5068;     /* Selected Tab Background Color (Dark Mode) */
+  --btn-active-text: #ffffff;   /* Selected Tab Text Color (Dark Mode) */
+  --btn-hover-bg: #2d2d2d;      /* Hovered Tab Background Color (Dark Mode) */
+  --h4-color: #6699ff;
+  --strong-color: #8a9ba8;
+}
+
+strong, b {
+  color: var(--strong-color);
+}
+
+body { 
+  background-color: var(--bg-color) !important; 
+  color: var(--text-color) !important; 
+  font-size: 14px;
+}
+.navbar-inverse { 
+  background-color: var(--navbar-bg) !important; 
+  border-color: var(--navbar-bg) !important; 
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a { 
+  color: var(--navbar-text) !important; 
+}
+
+
+
+
+.chart-wrapper { 
+  background: var(--card-bg) !important; 
+  border: 1px solid var(--card-border) !important; 
+}
+.chart-stage { 
+  background: var(--card-bg) !important; 
+  color: var(--text-color) !important; 
+}
+
+
+.chart-stage h4 { font-size: 1.5em; font-weight: 600; color: var(--h4-color);}
+.chart-stage h5 { font-size: 1.35em; font-weight: 600; }
+.chart-stage h6 { font-size: 1.2em; font-weight: 600; }
+.chart-stage p  { font-size: 1.25em; max-width: 1500px; }
+
+.chart-stage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.chart-title { 
+  font-size: 1.65em;
+  font-weight: 600;
+  background: var(--card-header) !important; 
+  color: var(--card-header-text) !important; 
+  border-bottom: 1px solid var(--card-border) !important; 
+}
+
+table, .table, th, td, tbody tr, tbody td {
+  color: var(--text-color) !important;
+  border-color: var(--card-border) !important;
+}
+[data-theme="dark"] tr:nth-child(even) { background-color: #252525 !important; }
+[data-theme="dark"] tr:nth-child(odd) { background-color: #1e1e1e !important; }
+
+.section.sidebar {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--text-color) !important;
+  border-right: 1px solid var(--card-border) !important;
+}
+
+.custom-nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.custom-nav-list li {
+  margin-bottom: 8px;
+}
+.custom-nav-link {
+  display: block;
+  padding: 10px 15px;
+  background: transparent;
+  color: var(--btn-inactive-text) !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* HOVER FEEDBACK STATE */
+.custom-nav-link:hover {
+  background-color: var(--btn-hover-bg) !important;
+}
+
+/* PERSISTENT SELECTED HIGHLIGHT STATE */
+.custom-nav-link.active {
+  background-color: var(--btn-active-bg) !important;
+  color: var(--btn-active-text) !important;
+}
+
+.theme-switch-wrapper {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  z-index: 9999;
+}
+.theme-switch-btn {
+  background: #34495e;
+  color: #fff;
+  border: 1px solid #4f5f6f;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}

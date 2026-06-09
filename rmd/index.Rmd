@@ -81,8 +81,6 @@ Global Navigation {.sidebar data-width=400}
 
 ### Navigation Options
 
-This persistent sidebar stays pinned to the left across all pages. The links above instantly switch views via native CSS without any flickering.
-
 Below are tabs for the Oasis Scourge and Wyvern's Mark regional cultures.   A regional culture is a unique culture defined not merely by regions, but whether enough material exists on the race within that region to warrant documentation here.   If a regional-race is not included, it does not mean irrelevance, but rather the game environment will disclose the cultural dynamics of the folk residing there.  
 
 <br>

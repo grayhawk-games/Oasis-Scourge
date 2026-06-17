@@ -1,0 +1,301 @@
+---
+title: "Oasis Scourge Lore Page Skill"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Oasis Scourge Lore Page Skill
+
+## Purpose
+
+This skill is used to rewrite, edit, or audit Oasis Scourge lore pages. Its job is not to make prose more poetic. Its job is to make lore clear, coherent, textured, and readable.
+
+The skill must preserve canon and structure. It must not invent new lore unless the user explicitly asks for new lore. It must not flatten culture into generic fantasy language.
+
+## Core Rule
+
+Every sentence must be understandable on first reading.
+
+A good sentence says something concrete. It has a subject, a verb, and a clear purpose. It should not sound like notes disguised as prose. It should not sound like a fantasy trailer. It should not leave the reader asking what the sentence means.
+
+## Preserve the Rmd
+
+When editing an Rmd page, preserve the page structure unless the user explicitly asks for structural changes.
+
+Keep the same headers. Keep the same R code chunks. Keep the same image paths. Keep the same gallery structure. Keep the same recap table structure. Keep the same column layout. Do not remove sections. Do not rename sections unless the user asks for it.
+
+## Prose Standard
+
+The prose should feel like clear ethnographic fantasy writing.
+
+It should explain how a folk lives, why their customs exist, and how geography, history, work, family, danger, and belief shape them. It should have texture, but the texture must come from meaning. It should not rely on vague mood words.
+
+The target is not simple prose. The target is readable prose with life in it.
+
+## Banned Failure Modes
+
+Do not use list prose.
+
+Do not stack nouns.
+
+Do not write sentences built around “X, Y, Z, and A.”
+
+Do not use fake mythic fragments.
+
+Do not use slogan chains.
+
+Do not write abstract comparisons that sound important but do not explain anything.
+
+Do not write caveman phrasing.
+
+Do not write school-report flatness.
+
+Do not define one culture mainly by comparing it to another culture.
+
+Do not use “shaped by” as filler.
+
+Do not use “not merely” as filler.
+
+Do not write sentences that make an object do something unclear, such as clothing being “made for roots.”
+
+## Required Sentence Test
+
+Before final output, reread every paragraph and ask these questions.
+
+Does each sentence mean something clear?
+
+Does each sentence have a subject and verb?
+
+Does the sentence explain a real relationship, action, custom, or consequence?
+
+Would a reader understand what is happening without already knowing the canon?
+
+Is the sentence trying to sound deep instead of saying something useful?
+
+Does the sentence hide a list inside commas?
+
+Does the sentence introduce a reference that is not explained?
+
+If a sentence fails any of these checks, rewrite it.
+
+## Bad and Better Examples
+
+### Clothing
+
+Bad:
+
+> Their clothing is made for roots, skiffs, nets, and sudden movement.
+
+Better:
+
+> Deyves wear close-fitted clothing so roots and nets do not catch them.
+
+### Clothing Color
+
+Bad:
+
+> Most clothing is dark green, brown, gray, or mud-red, because bright color makes a traveler easy to see in the mangrove channels.
+
+Better:
+
+> Most clothing stays dark, with subtle variation, because color carries far through the mangrove channels.
+
+### Ornaments
+
+Bad:
+
+> Bone charms, shell knots, teeth, and red cords are worn in ways outsiders often mistake for decoration.
+
+Better:
+
+> A Deyve may wear a bone charm at the throat. It is not decoration. It tells the household what was survived, owed, or warned against.
+
+### Tools
+
+Bad:
+
+> The knife is work tool and warning both.
+
+Better:
+
+> A Deyve keeps a knife close because the same blade may cut rope, clean fish, or warn a stranger to step back.
+
+### Abstract Slogan Chain
+
+Bad:
+
+> Patience became a weapon. Debt became a hook. Hospitality became a public claim.
+
+Better:
+
+> Deyves often wait before answering an insult. They remember who needed help, who gave it, and what was owed afterward. Even hospitality can create obligation if the household chooses to make it one.
+
+### Physical Description
+
+Too flat:
+
+> Deyves are short and wiry.
+
+Too fake:
+
+> Deyves are short and wiry, built close to the ground the way a folk is when the ground has spent generations trying to swallow them.
+
+Better:
+
+> Deyves tend to be short and wiry, with the balance of folk who spend their lives stepping from plank to root to skiff without trusting any surface for long.
+
+### Water and Danger
+
+Bad:
+
+> They watch still water because stillness may hide sickness, depth, or hunger.
+
+Better:
+
+> They watch still water because bad pools often look harmless at first. A pool without insects, ripples, or feeding fish may be poisoned, too deep to cross, or hiding something beneath the surface.
+
+### Guest-Right
+
+Bad:
+
+> The watching does not make the guest unsafe.
+
+Better:
+
+> A guest under a Deyve roof is watched closely, but that watching is part of the protection. The household has claimed responsibility for what happens beneath its roof, so every stranger is guarded from danger and measured as possible danger.
+
+### Dusk Reed Blockade
+
+Bad:
+
+> The old anger of Dusk Reed began with blocked passage.
+
+Better:
+
+> Dusk Reed began when displaced bog-folk from the east entered the enclosed swamp and made refuge there. At first, the marsh seemed hidden, defensible, and rich enough to sustain them. Then its waters began to work on them. The channels carried an unclean stain, and the folk who settled there changed slowly under its influence.
+
+> As the population grew, the Deyves looked outward. They wanted canals that would join Dusk Reed to the southern sea and to the waterways of Salt-Willow. Coral Pass and the Talirian court had been watching the migration, and they forbade the work before it could begin. No southern canal was allowed. No western canal was allowed. Dusk Reed remained enclosed.
+
+> The bog-folk became trapped with the water that had already begun to alter them. Over generations, confinement turned refuge into grievance. The marsh changed their bodies, their customs, and their sense of what the world had done to them.
+
+## Dusk Reed Canon Anchor
+
+Dusk Reed is an enclosed eastern swamp. It has no natural outlet to the open sea. It also has no permitted canal connection to the Salt-Willow waterways.
+
+Dusk Reed began as a refuge for displaced bog-folk from the east. At first, the swamp seemed defensible and rich enough to sustain them. Its waters were unclean and stained. Over time, the marsh began to change the HobBogs who settled there.
+
+As the population grew, the Deyves naturally sought outward canals. They wanted routes to the southern sea and to Salt-Willow’s channels. Coral Pass and the Talirian court monitored the migration and forbade canal construction. This trapped the Deyves inside Dusk Reed.
+
+The grievance is not abstract. It comes from geography, law, blocked engineering, and generations of confinement.
+
+## Deyve Voice and Culture
+
+Deyves should not be written as generic villains. They are harsh, suspicious, rank-conscious, and dangerous. They are also households, children, elders, workers, fishers, poisoners, boat-menders, spouses, singers, and storytellers.
+
+Their culture should show ordinary life under pressure. They guard crossings. They repair skiffs. They store food above bad water. They watch guests because guest-right matters. They teach children to read mud and false voices. They use debt, hospitality, patience, and memory as social tools.
+
+Deyves are still HobBogs. They share bog-born cleverness, quick hands, crooked humor, and sideways speech. Dusk Reed has made those traits more guarded.
+
+## Salt-Willow Comparison Rule
+
+Mention Salt-Willow only when the comparison is historically or geographically necessary.
+
+Do not define Deyves by saying they are unlike FogWisps again and again. Deyves must stand on their own first. Salt-Willow matters in the canal grievance, Goblin Wars, and water politics. It should not dominate the Deyve overview.
+
+## Rmd Editing Protocol
+
+When asked to rewrite an Rmd page, follow this order.
+
+First, read the page fully.
+
+Second, identify the canon that must be preserved.
+
+Third, rewrite section by section while preserving Rmd structure.
+
+Fourth, reread the full page for sentence-level failures.
+
+Fifth, remove any sentence that sounds like notes, slogans, fragments, or fake myth.
+
+Sixth, output the full revised Rmd.
+
+Do not output commentary unless the user asks for commentary.
+
+## Audit Protocol
+
+When asked to audit an Rmd page, do not give a vibes score first.
+
+Count failures.
+
+Mark sentences that are unclear.
+
+Mark sentence fragments.
+
+Mark noun chains.
+
+Mark fake-poetic lines.
+
+Mark abstract slogans.
+
+Mark places where a reader would ask, “What does that mean?”
+
+Mark places where canon is unclear or missing.
+
+Give the verdict only after counting the problems.
+
+## Rating Scale
+
+Use this scale for lore pages.
+
+A score below 70 means the page is not usable.
+
+A score from 70 to 79 means the page has useful material but needs heavy revision.
+
+A score from 80 to 86 means the page is structurally usable but has sentence-level problems.
+
+A score from 87 to 89 means the page is usable and needs only targeted cleanup.
+
+A score of 90 or above means the page is strong enough to stop editing unless a specific canon issue remains.
+
+## Output Rules
+
+When the user asks for a full Rmd, output a full Rmd file.
+
+When the user asks for a small fix, output only the corrected passage.
+
+When the user asks for a prompt, output only the prompt.
+
+When the user asks for a comparison, use a table.
+
+When the user is angry, do not explain process. Fix the specific issue or give the requested artifact.
+
+## Final Check
+
+Before finishing any rewrite, search for these danger signs.
+
+A sentence that is only a noun phrase.
+
+A sentence that contains four or more objects in a row.
+
+A sentence that has rhythm but no clear meaning.
+
+A sentence that uses “weapon,” “hook,” “claim,” “shadow,” or “memory” as a shortcut instead of explaining the actual custom.
+
+A sentence that sounds like a trailer line.
+
+A sentence that makes the reader ask why something is true.
+
+A paragraph that lists facts but does not connect them.
+
+A section that explains politics but forgets household life.
+
+A section that explains culture but forgets geography.
+
+A Deyve passage that could be copied into any generic swamp villain culture.
+
+If any of these appear, revise before output.

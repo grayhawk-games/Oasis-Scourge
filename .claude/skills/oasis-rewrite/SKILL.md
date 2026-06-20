@@ -70,11 +70,15 @@ Any section scoring below 85 overall is flagged as needing work. For each flagge
 
 Do not attempt to fix all flagged sections at once. Address one at a time and wait for approval between each.
 
+When a section has five or more distinct prose problems, offer a full section rewrite rather than targeted patches. Targeted edits on a structurally broken section leave the structure broken.
+
 ## Audit Protocol
 
 When asked to audit a page, do not give a vibes score first. Count failures.
 
 Mark sentences that are unclear. Mark sentence fragments. Mark noun chains. Mark fake-poetic lines. Mark abstract slogans. Mark places where a reader would ask "what does that mean?" Mark places where canon is unclear or missing.
+
+Also check for cross-section redundancy: if a custom, institution, or rule is fully described in more than one section of the same document, flag it. The duplicate belongs in the stronger section and should be removed or condensed in the weaker one.
 
 Give the verdict only after counting the problems.
 
@@ -120,6 +124,8 @@ Do not explain the theme. If the writing is working, trust the reader.
 Do not add warmth, nobility, cruelty, humor, mysticism, or sentiment unless the surrounding document already supports it.
 
 Do not use "shaped by" or "not merely" as filler. Do not write sentences that make an object do something unclear.
+
+Never define a thing by what it is not. "It is not decoration" tells the reader nothing. State what something is and what it does. A negative construction ("it is not X," "this is not merely Y") is never the primary description of an object, custom, or person — only a positive statement earns that position.
 
 ## Required Sentence Test
 
@@ -201,6 +207,14 @@ For Salt-Willow:
 - Preserve motion, improvisation, oral memory, neighborly friction, humor, and marsh practicality.
 - Do not make them quaint. Do not make them purely innocent.
 - Let humor come from behavior, not jokes pasted onto the prose.
+
+## Project Vocabulary
+
+Use "folk" not "people" throughout all Oasis Scourge documents. "People" is generic. "Folk" is the established register of the project and should appear wherever a generic term for persons is needed.
+
+## Geography Check
+
+Before writing any directional origin reference — "driven from the east," "came from the north," "displaced from further west" — verify the direction against the established canon map. Placing an origin in a direction that puts it off the map or into open sea is a canon error. Flag the geography as a question rather than inventing a direction.
 
 ## Anti-AI Style Rules
 

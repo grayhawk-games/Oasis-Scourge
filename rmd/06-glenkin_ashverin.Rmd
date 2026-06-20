@@ -1,4 +1,4 @@
-### The Ashvari:  Glenkin of Glentali
+### The Ashverin: Glenkin of Glentali
 
 <div style="background-color: #fff8f2; border-left: 4px solid #f0883b; padding: 12px; margin-bottom: 25px; border-radius: 4px; font-family: sans-serif;">
   <span style="color: #f0883b; font-weight: bold; font-size: 1.1em;">🚧 Work in Progress</span>

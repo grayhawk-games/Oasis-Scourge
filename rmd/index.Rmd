@@ -95,8 +95,9 @@ Below are tabs for the Oasis Scourge and Wyvern's Mark regional cultures.   A re
   <li><a href="#cragwold" class="custom-nav-link" onclick="styleSelectedTab(this)">Cragwolds of the Weald</a></li>
   
   <li><a href="#glenkin-dellari" class="custom-nav-link" onclick="styleSelectedTab(this)">Glenkin: The Delari Diaspora</a></li>
-  <li><a href="#glenkin-ashvari" class="custom-nav-link" onclick="styleSelectedTab(this)">Glenkin: The Ashvari of Glentali</a></li>
+  <li><a href="#glenkin-ashverin" class="custom-nav-link" onclick="styleSelectedTab(this)">Glenkin: The Ashverin of Glentali</a></li>
   <li><a href="#songs-salt-willow" class="custom-nav-link" onclick="styleSelectedTab(this)">The Songs of Salt-Willow</a></li>
+  <li><a href="#pale-hymn" class="custom-nav-link" onclick="styleSelectedTab(this)">Pale Hymn</a></li>
 </ul>
 
 
@@ -146,10 +147,10 @@ Glenkin_Dellari {#glenkin-dellari .hidden}
 
 
 
-Glenkin_Ashvari {#glenkin-ashvari .hidden}
+Glenkin_Ashverin {#glenkin-ashverin .hidden}
 =====================================
 
-```{r, child='06-glenkin_ashvari.Rmd'}
+```{r, child='06-glenkin_ashverin.Rmd'}
 ```
 
 
@@ -161,6 +162,20 @@ Songs_of_Salt_Willow {#songs-salt-willow .hidden }
 
 ```{r, child='20-songs-hobbogs-saltwillow.Rmd'}
 ```
+
+
+
+Pale_Hymn {#pale-hymn .hidden }
+=====================================
+
+```{r, child='08-pale-hymn.Rmd'}
+```
+
+
+
+
+
+
 
 
 

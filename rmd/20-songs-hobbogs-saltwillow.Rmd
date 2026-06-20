@@ -254,6 +254,8 @@ Column {data-width=300}
 
 ### Kin Folk of the Bogs
 
+<div class="image-scroll">
+
 <div class="scroll-card">
 <img src="images/hobbog-saltwillow/HobBog-Female-1.webp">
 <h3>Reed Gatherer</h3>

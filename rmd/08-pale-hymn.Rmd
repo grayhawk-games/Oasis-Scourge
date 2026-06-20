@@ -1,0 +1,280 @@
+```{r pale-hymn-setup, include=FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+```
+
+
+
+Column {data-width=700}
+-----------------------------------------------------------------
+
+### The Pale Hymn
+
+#### Overview
+
+Pale Hymn began after the Goblin Wars, when the Talirian Kingdom was broken and the old provinces had no common throne left to answer to. Its first teachers came south from Ashen Pale, carrying a doctrine of brotherhood into lands that had lost families, farms, roads, rulers, and names. They did not arrive as conquerors at first. They arrived as listeners, singers, healers, record-keepers, and organizers of hungry towns.
+
+The message was simple enough for the wounded to understand. No folk should stand alone. No field should feed one house while another starved. No child should inherit only the quarrels of their elders. No village should cling to a dead past when the many could build a common future.
+
+That is how Pale Hymn speaks when it first enters a place.
+
+What lies beneath the name is the collective. What lies beneath the collective is the earth. What lies in the earth, the Pale Hymn does not name directly.
+
+---
+
+#### Origins
+
+After the Goblin Wars, the Ashen Pale did not empty.
+
+The battles that ended the invasion left behind a silence that visitors describe differently depending on when they entered and what they were carrying when they did. Some speak of an unsettled weight in the ground. Others of voices that arrive as feeling rather than sound. What most agree on is that the Pale after the war felt less emptied than waiting.
+
+From that silence, the first teachers emerged — folk who had survived the war in the Ashen Pale and found, when the armies withdrew, that they could not fully leave what the war had left behind. They built a doctrine around what they found there: the dead do not depart. They return to the earth and continue to hold claim on the living. The individual who dies becomes the collective that endures. To serve the Many is to honor the dead who built it. To hoard name, land, or labor for oneself is to steal from those already beneath the ground.
+
+From the Ashen Pale, the doctrine moved southward into devastated Talirian lands where the Goblin Wars had shattered the old order and left populations without households, without elders, and without the structures that had once organized their lives. It did not need to break anything. The war had already done that.
+
+---
+
+#### The Doctrine
+
+Underneath the promise is a harder order. Pale Hymn does not merely ask folk to share labor. It teaches that the individual is incomplete until joined to the many. A household that remembers itself apart from the whole is called selfish. A name that resists correction is called a wound. A custom that keeps old loyalties alive is treated as a seed of future division.
+
+This is why the doctrine stands opposite the Cragwold way. The Wyraks remain upon their mountains and test strength against stone, weather, memory, and restraint. They believe truth is found by enduring the world as it is. Pale Hymn does not wait on the mountain. It creeps into every crevice below it. It enters ports, farms, refugee camps, taverns, shrines, granaries, schoolrooms, and marriages. Where the Cragwolds preserve, Pale Hymn revises. Where the Cragwolds endure, Pale Hymn recruits.
+
+---
+
+#### How the Hymn Moves
+
+Pale Hymn changes its language wherever it settles. In the **Shatterlands**, it speaks of scorching. The old plains must be burned clean so the saved may cross without carrying the dust of former claims. Among desert converts, fire becomes proof. A person is not purified by memory, but by surrendering what memory kept alive.
+
+In **Glentali**, Pale Hymn speaks of harvest. The flow of water, labor, grain, and ferrywork becomes the image of salvation. The many sow. The many reap. The many eat. The many remember. The Ashverin were taken from the Verdant Steppes as slaves during the Goblin Wars, sold through Dusk Reed, and reshaped by the doctrine into a people with a new name and a new purpose. That purpose was Glentali. The doctrine tells them they have always belonged there. Their hands work the fields, their grain fills the storehouses, and their allegiance proves the truth of their claim. The Dellari memory is not denied outright. It is thinned, corrected, and renamed until it becomes a refugee story instead of a homeland claim — until the people who actually built Glentali become a footnote in the history of those who replaced them.
+
+In **the bogs**, Pale Hymn speaks more softly. It does not begin by insulting the boglet. It tells young HobBogs that kinship can be wider than root, skiff, hut, and family story. It teaches them new greetings over food and water. It asks them to mark themselves by shared allegiance rather than household memory. A young FogWisp may still speak the old dialect, but the obligation underneath the words has changed.
+
+Pale Hymn therefore does not look the same in every land. In the Shatterlands, it burns. In Glentali, it harvests. In the bogs, it widens kinship until the boglet loosens around the young. Its promise is brotherhood. Its method is replacement. Its final demand is that no one belong to themselves before they belong to the many.
+
+
+<div class="lore-scroll" markdown="1">
+
+*The Pale Hymn — preserved from the Ashen Pale tradition. Sung at gatherings, at name-givings, at the close of communal meals. This is the one that traveled south.*
+
+**Verse 1**
+Pale is the dawn, pale is the sky,
+Yet strong are the hands that never ask why.
+One field, one hand, one harvest shared,
+No man owns what all have bared.
+
+**Chorus**
+Sing the Hymn, and you are free,
+Silent the self, and strong the We.
+The Hymn is the dawn — all else is dusk,
+In the Pale we believe, in the Pale we trust.
+
+**Verse 2**
+Grain for the Union, blood for the land,
+All for the Hymn, the Hymn for the band.
+Pale are the lips that no longer breathe,
+Yet they sing the Hymn eternally beneath.
+
+**Chorus**
+Sing the Hymn, and you are free,
+Silent the self, and strong the We.
+The Hymn is the dawn — all else is dusk,
+In the Pale we believe, in the Pale we trust.
+
+No one alone, we all belong,
+Together we live, together we're strong.
+The Queen is dust, but her song remains,
+The Hymn will bind, the Hymn sustains.
+
+**Final Chorus**
+Sing the Hymn, and you are free,
+Silent the self, and strong the We.
+The Hymn is the dawn — all else is dusk,
+In the Pale we believe, in the Pale we trust.
+
+</div>
+
+
+---
+
+<div class="lore-scroll" markdown="1">
+
+*A fragment of the Glentali Pale Hymn, as sung at communal harvest. The original is older. This version is local.*
+
+The field did not ask whose hands had turned it.
+The water did not ask whose children drank.
+We came when the soil remembered being open
+and planted what the many mouths had earned.
+
+Those who came before us left the furrow.
+We do not name them less for having gone.
+Their going fed the earth that feeds our children.
+The going is the gift. We carry on.
+
+Put your hands in.
+Feel who built this.
+Everything you hold was held before.
+Put your hands in.
+You are not the first hands.
+You will not be the last.
+This is what the earth is for.
+
+</div>
+
+
+---
+
+#### Beneath the Hymn
+
+The dead hold a quiet place in Pale Hymn, though its teachers rarely explain this to new converts. Officially, the dead are witnesses to the common future. Their names are sung so no sacrifice is wasted. Their ashes may be mixed into boundary clay, granary seals, or memorial ink. Their bones may be kept beneath meeting floors or within pale shrines where the faithful gather to sing.
+
+The doctrine says this preserves the fallen within the many.
+
+Its older Ashen Pale teachers say less. They know remembrance can become use. They know a body returned to the common order has not fully left it. In most towns this remains hidden behind song, ash, and ritual language. No convert is asked to name what it is. They are only taught that the dead still serve.
+
+---
+
+#### Signs in the World
+
+A traveler can recognize Pale Hymn presence by several markers before any doctrine is spoken.
+
+Converts address each other by given names, not birth names, family terms, or titles tied to household or boglet. The old name is not renounced in public. It simply stops being used until it is forgotten by everyone who once knew it.
+
+Food is distributed communally before any household takes its share. The ritual marks who belongs to the Many and who does not. A guest who eats at a Pale Hymn table without understanding the gesture has already participated in it.
+
+When crossing a threshold into shared space, adherents press both palms briefly to the earth — honoring the collective dead below. The gesture is quiet. Outsiders rarely notice it the first time.
+
+Speech avoids possessive forms when addressing collective property. *The field.* *The harvest.* *The crossing.* Not *my share* or *our water.* Among converts this is so natural it no longer sounds deliberate.
+
+Songs are sung in unison, without individual lead voice or call-and-response. The Hymn does not allow one voice to carry what belongs to all.
+
+The new name is announced at a communal meal, not in private. The old name is not spoken again by those who witnessed the meal.
+
+---
+
+#### The Appeal and the Cost
+
+This is what makes Pale Hymn intoxicating to the young. It gives them importance before they have earned standing at home. It tells them their doubts are not laziness, rebellion, or shame, but proof that they were born for a wider order. It gives them phrases that make them sound older than their parents and cleaner than their ancestors.
+
+It can also move the old. Parents who survived war, hunger, exile, and local feud may hear in Pale Hymn the promise of rest. The doctrine offers common stores, common defense, common teaching, and an end to the small cruelties of household rivalry. To a tired mother, a shared granary may sound like mercy. To a father with no sons left, the many may sound safer than blood.
+
+The cost comes later.
+
+Pale Hymn does not destroy the self in a single demand. It pares it down through usefulness. First the household mark becomes less important than the common sign. Then private grief is corrected into public memory. Then old names become provincial errors. Then refusal becomes sabotage. By the time a person understands what has been taken, the many are already speaking through every neighbor.
+
+---
+
+#### Reach
+
+The Pale Hymn has moved steadily southward from its origin in the Ashen Pale, following war damage, displacement, and populations with no household left to return to.
+
+- **Ashen Pale** — origin and deepest stronghold; the doctrine holds uncontested
+- **Glentali** — most complete expression of Pale Hymn material power; Ashverin have reshaped the entire lake basin
+- **The Shatterlands** — one established city; traditional desert folk resist and can articulate why
+- **The Mudflats** — transit corridor between Dusk Reed's eastern channels and the western bogs; doctrine moves through it in both directions
+- **Reedveil** — seeping in from the mudflats; young FogWisps are the primary convert population; elders are worried and divided
+- **Weald edges and Free Cities** — travelers and rumors only; no organized presence yet
+
+---
+
+#### Opposition
+
+The **Dellari** resist because the doctrine erased their kin, renamed their homeland, and calls that erasure the completion of what they began. There is no Pale Hymn version of this story in which the Dellari are not a prelude.
+
+The **traditional Shatterland desert folk** resist on philosophical and historical grounds. They have their own account of the dead, the earth, and what the collective means — and it does not require surrendering the name. Their resistance is the oldest and most articulate in the south.
+
+**Salt-Willow** resists because boglet obligation is the foundation of FogWisp life. The Pale Hymn dissolves the boglet into the Many. There is no FogWisp culture without the household, the debt, and the particular mud one belongs to. A FogWisp who gives their obligation to the Many has, in Salt-Willow's understanding, stopped being a FogWisp.
+
+FogWisp community also depends on the individual coming into their own within the boglet. A strange habit, a crooked song, a private craft, a new telling, an odd joke, a painted skiff, even a foolish scheme may become useful because it came from someone in particular. The community grows by making room for expression, then testing what that expression gives back.
+
+Pale Hymn cannot tolerate that for long. It may praise local color at first, and it may borrow the words of the place it enters, but its deeper movement is always toward sameness. The oddity must become a sign. The private song must become a common hymn. The self must be made useful to the many before it is allowed to exist at all.
+
+The **Cragwolds** are the ideological counterpoint. The mountain philosophy holds that strength is built through individual and clan endurance against the land's hardness. Pale Hymn teaches that the mountain is a wall built to keep the Many from reaching each other. These two doctrines do not negotiate.
+
+---
+
+#### Recap Table
+
+```{r pale-hymn-recap}
+recap_table <- data.frame(
+  Section = c(
+    "Origins",
+    "Surface Doctrine",
+    "Underlying Root",
+    "Regional Adaptation",
+    "Signs in the World",
+    "The Appeal",
+    "The Cost",
+    "Reach",
+    "Opposition"
+  ),
+  `The Pale Hymn` = c(
+    "Emerged from the Ashen Pale after the Goblin Wars; moved south into devastated Talirian lands following displacement and broken households.",
+    "Brotherhood, collective labor, shared harvest, and belonging to the Many; the individual is incomplete until joined to the many.",
+    "The dead remain in the earth and hold claim on the living; the dead still serve, though converts are not taught to name it.",
+    "Shapes its message to local land, loss, and language before teaching doctrine; the song arrives before the argument.",
+    "Communal naming, earth-pressing gesture, unison song, possessive-free speech about shared property, food ritual at threshold.",
+    "Intoxicating to the young — gives importance before standing is earned; appeals to the old with the promise of common stores and rest.",
+    "Loss of birth name, household obligation, private grief, and the freedom to leave; the debt to the Many does not release.",
+    "Ashen Pale, Glentali, Shatterlands, mudflats, Reedveil; moving toward the Free Cities and Weald edges.",
+    "Dellari, traditional Shatterland desert folk, Salt-Willow, Cragwolds — each for different reasons rooted in what the Hymn erases."
+  ),
+  check.names = FALSE
+)
+
+kbl(
+  recap_table,
+  caption = "Recap Table",
+  align = c("l", "l"),
+  escape = FALSE
+) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) %>%
+  column_spec(1, width = "18em", bold = TRUE) %>%
+  column_spec(2, width = "52em")
+```
+
+
+
+Column {data-width=300}
+-----------------------------------------------------------------
+
+### Reference: The Pale Hymn
+
+<div style="font-family: sans-serif; font-size: 0.9em; line-height: 1.6;">
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #555; padding: 10px; margin-bottom: 18px; border-radius: 3px;">
+<strong>Core Terms</strong><br><br>
+<strong>The Many</strong> — the collective; the fundamental unit of Pale Hymn society<br><br>
+<strong>The Pale</strong> — the origin province; also the state of having been remade by the doctrine<br><br>
+<strong>The Hymn</strong> — the doctrine itself, transmitted through communal song before argument<br><br>
+<strong>The Return</strong> — death as reunion with the collective earth; the individual's final contribution to the Many<br><br>
+<strong>The Scorching</strong> — the regional purification doctrine in the Shatterlands; the clearing of the old order<br><br>
+<strong>Name-giving</strong> — the conversion ritual; the old name is retired at a communal meal, the new name announced<br><br>
+<strong>Ashverin</strong> — the Glentali Glenkin identity tied to Pale Hymn-aligned resettlement after the Goblin Wars; its official story treats Glentali as always theirs
+</div>
+
+<div style="background-color: #f7f0e8; border-left: 4px solid #c08030; padding: 10px; margin-bottom: 18px; border-radius: 3px;">
+<strong>Known Reach</strong><br><br>
+<span style="color: #8b0000;">&#9632;</span> <strong>Ashen Pale</strong> — origin, fully held<br>
+<span style="color: #8b0000;">&#9632;</span> <strong>Glentali</strong> — Ashverin control, materially established<br>
+<span style="color: #cc5500;">&#9632;</span> <strong>Shatterlands</strong> — one city; active resistance nearby<br>
+<span style="color: #cc5500;">&#9632;</span> <strong>Reedveil</strong> — seeping in; young converts<br>
+<span style="color: #cc9900;">&#9632;</span> <strong>Mudflats</strong> — transit corridor, not settled<br>
+<span style="color: #999999;">&#9632;</span> <strong>Free Cities / Weald</strong> — travelers and rumor only
+</div>
+
+<div style="background-color: #f0f4f0; border-left: 4px solid #336633; padding: 10px; border-radius: 3px;">
+<strong>Signs to Recognize</strong><br><br>
+Given names only — birth names retired<br><br>
+Communal food before household share<br><br>
+Palms pressed to earth at thresholds<br><br>
+No possessives on shared property<br><br>
+Songs in unison — no individual lead voice<br><br>
+New name announced at a shared meal
+</div>
+
+</div>

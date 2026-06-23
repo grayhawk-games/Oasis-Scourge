@@ -1,13 +1,46 @@
 @media (max-width: 768px) {
-  /* Forces the layout container to scroll naturally on touch devices */
-  .section.sidebar {
-    position: relative !important;
+  /* 1. Prevent the mobile body framework from locking the layout height */
+  body.mobile-layout {
+    padding: 0 !important;
     height: auto !important;
     overflow-y: visible !important;
+  }
+
+  /* 2. Break down the fixed-height container grid */
+  .mobile-layout #dashboard-container,
+  .mobile-layout .dashboard-row,
+  .mobile-layout .dashboard-column {
     display: block !important;
-    -webkit-overflow-scrolling: touch;
+    height: auto !important;
+    min-height: unset !important;
+  }
+
+  /* 3. Force your custom sidebar and its parent wrapper to stack cleanly at the top */
+  .mobile-layout .dashboard-sidebar-wrapper,
+  .mobile-layout .section.sidebar,
+  .mobile-layout .sidebar {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    float: none !important;
+    overflow-y: visible !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--card-border) !important;
+  }
+
+  /* 4. Allow your child Rmd pages (.chart-wrapper / .chart-stage) to stack and scroll smoothly */
+  .mobile-layout .chart-wrapper,
+  .mobile-layout .chart-stage {
+    display: block !important;
+    height: auto !important;
+    overflow-y: visible !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 }
+
 
 
 

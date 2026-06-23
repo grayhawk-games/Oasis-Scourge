@@ -1,0 +1,94 @@
+---
+title: "PaleHymnOutline"
+author: "Grayhawk"
+date: "2026-06-22"
+output: html_document
+---
+
+Use this version — just the **kableExtra** table, no CSV.
+
+```{r}
+
+
+library(knitr)
+library(kableExtra)
+
+outline <- data.frame(
+  Part = 1:16,
+  Title = c(
+    "The Treaty Seal",
+    "The Serathi Road",
+    "Glentali Hears",
+    "The Evacuation Road",
+    "The War Leaves the Scourge",
+    "The Weald War",
+    "The Northern Forest Edge Defense",
+    "Middle Vale Breaks",
+    "The Verdant Taking",
+    "The Black Coves",
+    "Ashen Pale Defense",
+    "The Buried Opens",
+    "The War Turns",
+    "The Crownless Flight",
+    "The Queen Unfound",
+    "The First Hymn"
+  ),
+  Summary = c(
+    "Coral Pass blocks the sea route and accepts the Scourge land route.",
+    "Goblins enter through the Shatterlands.",
+    "Glentali sees smoke, refugees, and proof of goblin invasion.",
+    "Glentali, RidgeFount, Ternhaven, Greyharbor Downs, and Salt-Willow respond.",
+    "The goblin host divides: the Goblin King goes north through the Weald; the Crownless King goes east toward Middle Vale.",
+    "The Goblin King fights through the Weald and against Cragwold resistance.",
+    "NFE descends into the northern Weald fight and gets mauled.",
+    "The Crownless King defeats Middle Vale.",
+    "After Middle Vale, the Crownless King redirects or backtracks into Verdant Steppes.",
+    "Pirate coves and hidden markets move captives, beasts, trolls, and forbidden cargo.",
+    "The Goblin King reaches Ashen Pale; TorDwergs defend the Queen’s realm.",
+    "Ashermire and Splintergrove release Grave-Bought, Ash-Rot beasts, predators, trolls, and buried monsters.",
+    "Goblin King, TorDwergs, NFE, and Coral Pass are forced into the same fight against the horror.",
+    "The Crownless King’s army fractures; he flees south toward Dusk Reed with loyalists, wealth, captives, and secrets.",
+    "The Queen’s castle falls, empties, or is abandoned, but she is never found.",
+    "Pale Hymn begins in Ashen Pale after the physical rot is defeated, contained, or lost."
+  ),
+  Purpose = c(
+    "Coral Pass chooses survival; Oasis Scourge becomes the sacrifice.",
+    "The betrayal begins under treaty cover.",
+    "The Scourge realizes the Goblin King sent war.",
+    "The Scourge buys time while the Shatterlands still fight.",
+    "Two wars begin: the Goblin King’s tragic purpose and the Crownless King’s private ambition.",
+    "The Goblin King loves the Weald and the Cragwolds, making this a painful betrayal rather than ordinary conquest.",
+    "NFE tries to stop the Goblin King, but he bends east toward Ashen Pale.",
+    "The Crownless King’s independent power, captains, reputation, and ambition grow.",
+    "Captive-taking begins at scale; Verdant families are split.",
+    "Coral Pass’s old anti-slaver war connects to the coming horror.",
+    "Goblins and TorDwergs are still enemies; the war still looks conventional.",
+    "The war changes from army conflict to rot catastrophe.",
+    "The strange alliance forms, later mythologized by Pale Hymn writers.",
+    "His corruption becomes one of Dusk Reed’s later roots.",
+    "Her role and the rot’s origin remain mystical and unresolved.",
+    "Public doctrine spreads order and equality; deepest circles preserve rot theology."
+  ),
+  check.names = FALSE
+)
+
+outline %>%
+  kbl(
+    caption = "How the Pale Hymn Began — Revised Outline",
+    booktabs = TRUE,
+    escape = FALSE,
+    align = c("c", "l", "l", "l")
+  ) %>%
+  kable_styling(
+    full_width = FALSE,
+    position = "left",
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) %>%
+  column_spec(1, width = "0.6in", bold = TRUE) %>%
+  column_spec(2, width = "2.0in", bold = TRUE) %>%
+  column_spec(3, width = "4.4in") %>%
+  column_spec(4, width = "4.4in")
+
+
+```
+

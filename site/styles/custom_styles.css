@@ -1,8 +1,23 @@
+@media (max-width: 768px) {
+  /* Forces the layout container to scroll naturally on touch devices */
+  .section.sidebar {
+    position: relative !important;
+    height: auto !important;
+    overflow-y: visible !important;
+    display: block !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+
+
+
 :root {
   /* LIGHT MODE CONFIGURATION */
   --bg-color: #ffffff;
   --text-color: #333333;
-  --navbar-bg: #1e2d3d;;
+  --navbar-bg: #1e2d3d;
   --navbar-text: #ffffff;
   --card-bg: #ffffff;
   --card-border: #e2e2e2;

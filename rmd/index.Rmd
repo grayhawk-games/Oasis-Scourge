@@ -32,16 +32,24 @@ document.addEventListener("DOMContentLoaded", function() {
     if (btn) btn.innerHTML = "☀️ Light Mode";
   }
 
-  // 2. FIX STATE RECOVERY: Force sidebar link highlighting to match the active URL hash on refresh
+  // 2. FIX STATE RECOVERY
   const currentHash = window.location.hash;
   if (currentHash) {
-    // Strip default active highlights
     document.querySelectorAll(".custom-nav-link").forEach(link => link.classList.remove("active"));
-    
-    // Find the link matching this precise browser hash and illuminate it
     const activeLink = document.querySelector(`.custom-nav-link[href="${currentHash}"]`);
     if (activeLink) {
       activeLink.classList.add("active");
+    }
+  }
+
+  // 3. NEW MOBILE PERSISTENT SIDEBAR RE-PARENTING ENGINE
+  if (window.innerWidth <= 768) {
+    const sidebarWrapper = document.querySelector('.dashboard-sidebar-wrapper') || document.querySelector('.section.sidebar');
+    const container = document.getElementById('dashboard-container') || document.body;
+    
+    if (sidebarWrapper && container) {
+      // Moves the sidebar outside of the dynamic page structures so it never gets hidden
+      container.insertBefore(sidebarWrapper, container.firstChild);
     }
   }
 });
@@ -67,6 +75,7 @@ function styleSelectedTab(element) {
   element.classList.add("active");
 }
 </script>
+
 ')
 ```
 

@@ -5,3 +5,10 @@
 .RData
 .Ruserdata
 .positai
+
+# Claude tooling
+.claude/
+pack.ps1
+
+# Data files
+*.xlsx

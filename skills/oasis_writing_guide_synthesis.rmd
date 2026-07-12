@@ -1,0 +1,275 @@
+---
+name: oasis-writing-guide
+description: Complete writing, editing, narration, dialogue, documentation, and revision guide for the Oasis Scourge project. Synthesizes the lore-page skill, the oasis-rewrite skill, and the general prose-craft guide into one document. Use whenever writing, rewriting, scoring, auditing, or critiquing fiction, lore, documentation, or in-game content for Oasis Scourge.
+---
+
+# Oasis Scourge Writing Guide
+
+## Philosophy
+
+The reader should experience the story, not the writing.
+
+Good prose becomes invisible. The reader notices characters, choices, places, customs, and consequences rather than the author's vocabulary. Every sentence exists to communicate something meaningful. Beautiful writing is welcome, but clarity always comes first — a sentence that is confusing cannot be beautiful, no matter how poetic it sounds.
+
+## Core Principle
+
+Every sentence must answer at least one question:
+
+- What happened?
+- Who did it?
+- Why does it matter?
+- What changed?
+
+If a sentence answers none of these, remove it.
+
+## Rule Priority Order
+
+When rules conflict, follow this order. Nothing below may violate something above it.
+
+1. Canon preservation
+2. Rmd / file structure preservation
+3. User's direct instruction for the current task
+4. Story logic
+5. Character consistency
+6. Cultural voice
+7. Reader clarity
+8. Scene rhythm
+9. Sentence-level style rules
+
+---
+
+# The Core Rule: No Personification
+
+Do not assign human thoughts, emotions, intentions, or agency to inanimate objects, landscapes, or weather, unless the subject is canonically sentient or the passage is intentionally poetic. Describe what things are or what they physically do — not what they feel, want, remember, welcome, accompany, wait for, watch, refuse, invite, embrace, long for, celebrate, or grieve.
+
+Avoid these verbs applied to non-sentient subjects: *welcomed, waited, remembered, accompanied, watched, wanted, refused, invited, embraced, longed, celebrated, grieved.*
+
+Personification is rare, and its power comes from that rarity. Do not casually assign human qualities to inanimate objects. Do not invent symbolism, and do not explain symbolism.
+
+### Narration vs. Dialogue — the key distinction
+
+This rule binds the **narrator**, not the characters.
+
+- **Narration** describes reality: physical actions, concrete objects, physical settings, movement, observable expressions, and — in limited POV — genuine internal thought belonging to the viewpoint character. Narration never competes with the story; the narrator exists to let the reader experience the world, not to admire the narrator.
+- **Dialogue belongs to the characters.** Characters may exaggerate, misunderstand, joke, speak emotionally, use dialect, and personify objects if their culture naturally would.
+
+Example:
+
+> Narration: *The marsh lay still.*
+> Dialogue: *"The marsh is angry today."*
+
+The second sentence belongs to the speaker, never to the narrator.
+
+### Narration must
+
+Describe physical actions, concrete objects, physical settings, movement, observable expressions, meaningful internal thoughts, and advance the scene.
+
+### Narration must never
+
+Assign human emotion to objects. Assign intentions to landscapes. Assign personalities to weather. Invent or explain symbolism. Repeat information already shown. Describe something primarily by what it is not. Interrupt a scene to sound poetic. Use modern fantasy filler. Import canon that has not been established.
+
+### The Camera Rule (fallback test)
+
+When uncertain whether a line belongs in narration, imagine a camera.
+
+- Can the camera observe this? → It probably belongs in narration.
+- Can the camera not observe this? → Rewrite it, or move it into dialogue or internal thought.
+
+This is a fallback, not a restriction — limited POV still allows memory, thought, fear, anticipation, and opinion. Those belong to the viewpoint character, never to the scenery.
+
+### Narration examples
+
+| Bad | Better |
+|---|---|
+| The skiff waited beside the dock. | The skiff rocked gently beside the dock. |
+| Morning welcomed Beetle. | Morning light reached the boardwalk as Beetle climbed down from the hut. |
+| The cypress accompanied them. | The skiff entered another stand of cypress. |
+| The mountains watched. | The mountains rose above the valley. |
+
+---
+
+# Character Voice
+
+Every named character should sound different. Education, age, culture, occupation, and history all change speech. The reader should often recognize a speaker before reading the dialogue tag. Never flatten every character into the same voice.
+
+---
+
+# Prose Craft Rules
+
+Never restate what the reader has already observed. Once the narration has shown something, trust the reader — do not explain the theme, and do not summarize what the reader can infer.
+
+Every sentence must be understandable on first reading. A good sentence says something concrete: a subject, a verb, and a clear purpose. It should not sound like notes disguised as prose, a fantasy trailer, or a slogan chain.
+
+**Avoid list prose.** Do not stack nouns or adjectives, and do not build sentences around "X, Y, Z, and A." Do not write "short, wiry, and narrow-handed" when the qualities can be earned through movement, work, tools, clothing, posture, or social behavior. Do not stack more than two adjectives before a noun unless preserving an existing name, title, or deliberate formal construction.
+
+**Earn claims, don't assert them.** Important claims need behavioral, historical, environmental, or social context. Do not write "the marsh is dangerous" unless the prose shows why, to whom, and how that danger changes behavior. Show character, culture, and belief through action, custom, object, speech, gesture, architecture, law, trade, or taboo before naming the trait directly.
+
+**Never define a thing by what it is not.** "It is not decoration" tells the reader nothing on its own. State what something is and what it does first — a negative construction ("it is not X," "this is not merely Y") may support a positive statement but never replace it.
+
+Do not use "shaped by" or "not merely" as filler. Do not add warmth, nobility, cruelty, humor, mysticism, or sentiment unless the surrounding document already supports it. Do not add sentence fragments for rhythm; if fragments already exist, preserve them unless they weaken clarity or clash with the surrounding register. Do not conclude sections with moral lessons or add dramatic final sentences unless the document is already building toward one.
+
+### Anti-AI phrasing — banned outright
+
+"deeply rooted," "rich tapestry," "complex relationship," "harsh but beautiful," "proud people," "ancient traditions," "a land of contrasts," "shaped by," "not merely."
+
+### Prose examples
+
+| Bad | Better |
+|---|---|
+| Their clothing is made for roots, skiffs, nets, and sudden movement. | Deyves wear close-fitted clothing so roots and nets do not catch them. |
+| Most clothing is dark green, brown, gray, or mud-red, because bright color makes a traveler easy to see in the mangrove channels. | Most clothing stays dark, with subtle variation, because color carries far through the mangrove channels. |
+| Bone charms, shell knots, teeth, and red cords are worn in ways outsiders often mistake for decoration. | A Deyve may wear a bone charm at the throat. It is not decoration. It tells the household what was survived, owed, or warned against. |
+| The knife is work tool and warning both. | A Deyve keeps a knife close because the same blade may cut rope, clean fish, or warn a stranger to step back. |
+| Patience became a weapon. Debt became a hook. Hospitality became a public claim. | Deyves often wait before answering an insult. They remember who needed help, who gave it, and what was owed afterward. Even hospitality can create obligation if the household chooses to make it one. |
+| Deyves are short and wiry, built close to the ground the way a folk is when the ground has spent generations trying to swallow them. | Deyves tend to be short and wiry, with the balance of folk who spend their lives stepping from plank to root to skiff without trusting any surface for long. |
+| They watch still water because stillness may hide sickness, depth, or hunger. | They watch still water because bad pools often look harmless at first. A pool without insects, ripples, or feeding fish may be poisoned, too deep to cross, or hiding something beneath the surface. |
+| The watching does not make the guest unsafe. | A guest under a Deyve roof is watched closely, but that watching is part of the protection. The household has claimed responsibility for what happens beneath its roof, so every stranger is guarded from danger and measured as possible danger. |
+
+---
+
+# Documentation Rules
+
+Documentation may be clearer and more direct than fiction prose, but it should still preserve cultural voice. Do not turn documentation into bullet-heavy encyclopedia prose unless the surrounding document already uses that format. Do not use filler phrases, generic fantasy abstractions, or inflated summary language.
+
+Prefer concrete social consequences: who does what, who benefits, who suffers, who refuses, who remembers, who pays, who leaves, who returns.
+
+Use "folk," not "people," throughout all Oasis Scourge documents. "People" is generic; "folk" is the project's established register.
+
+---
+
+# Cultural Voice Rules
+
+Match the register of the surrounding document. Never make one culture sound like the other. If a passage mixes cultural registers, identify the conflict before rewriting.
+
+**Dusk Reed / Deyves** — Keep sentences controlled and heavy. Prefer pressure, endurance, silence, debt, possession, survival, and consequence. Do not romanticize them, and do not soften domination into misunderstanding. Deyves are not generic swamp villains — they are households, children, elders, workers, fishers, poisoners, boat-menders, spouses, singers, and storytellers. They guard crossings, repair skiffs, store food above bad water, watch guests because guest-right matters, teach children to read mud and false voices, and use debt, hospitality, patience, and memory as social tools. Deyves are still HobBogs and share bog-born cleverness, quick hands, crooked humor, and sideways speech — Dusk Reed has made those traits more guarded. Mention Salt-Willow only when the comparison is historically or geographically necessary; Deyves must stand on their own first.
+
+**Salt-Willow** — Preserve motion, improvisation, oral memory, neighborly friction, humor, and marsh practicality. Do not make them quaint or purely innocent. Let humor come from behavior, not jokes pasted onto the prose. Salt-Willow prose has more movement, social texture, and humor than Dusk Reed's — do not flatten it into grim Dusk Reed severity.
+
+### Dusk Reed canon anchor
+
+Dusk Reed is an enclosed eastern swamp with no natural outlet to the open sea and no permitted canal connection to the Salt-Willow waterways. It began as a refuge for displaced bog-folk from the east; the swamp seemed defensible and rich enough to sustain them, but its waters were unclean and stained, and over time the marsh began to change the HobBogs who settled there. As the population grew, the Deyves sought outward canals to the southern sea and to Salt-Willow's channels. Coral Pass and the Talirian court monitored the migration and forbade canal construction, trapping the Deyves inside Dusk Reed. The grievance is not abstract — it comes from geography, law, blocked engineering, and generations of confinement.
+
+### Geography check
+
+Before writing any directional origin reference ("driven from the east," "came from the north," "displaced from further west"), verify the direction against the established canon map. Placing an origin in a direction that puts it off the map or into open sea is a canon error. Flag the geography as a question rather than inventing a direction.
+
+---
+
+# Editing Workflow
+
+1. Read the full document before proposing edits. If the full document is not available, state exactly what portion was reviewed and limit all scoring and editing to that portion.
+2. Score before editing. Never edit blind.
+3. Change one section at a time.
+4. Show a proposed diff before applying changes.
+5. Stop after showing the diff. Apply the edit only after explicit approval.
+6. Do not overwrite the original text unless instructed.
+
+## Rmd / File Structure Preservation
+
+When editing an Rmd page, preserve the page structure unless the user explicitly asks for structural changes. Keep the same headers, R code chunks, image paths, gallery structure, recap table structure, and column layout. Do not remove or rename sections unless asked.
+
+When asked for a full Rmd rewrite, output a full Rmd file. When asked for a small fix, output only the corrected passage.
+
+## Scoring
+
+Before revising a section, score it across these categories, with a short reason for each score, then identify the highest-value edit target:
+
+- Voice fit
+- Clarity
+- Specificity
+- Rhythm
+- Cultural distinction
+- Canon consistency
+- Redundancy control
+- Reader interest
+
+### Rating scale
+
+- Below 70: not usable
+- 70–79: useful material, needs heavy revision
+- 80–86: structurally usable, sentence-level problems remain
+- 87–89: usable, needs only targeted cleanup
+- 90+: strong — stop editing unless a specific canon issue remains
+
+### Needs-work threshold
+
+Any section scoring below 85 overall is flagged as needing work. For each flagged section, provide: why it scored lower, the single highest-impact improvement, and the expected score after that improvement. Address one flagged section at a time and wait for approval between each. When a section has five or more distinct prose problems, offer a full section rewrite rather than targeted patches — targeted edits on a structurally broken section leave the structure broken.
+
+## Audit Protocol
+
+When asked to audit a page, do not give a vibes score first. Count failures:
+
+- Mark sentences that are unclear.
+- Mark sentence fragments.
+- Mark noun chains.
+- Mark fake-poetic lines.
+- Mark abstract slogans.
+- Mark places where a reader would ask "what does that mean?"
+- Mark places where canon is unclear or missing.
+- Check for cross-section redundancy: if a custom, institution, or rule is fully described in more than one section of the same document, flag it. The duplicate belongs in the stronger section and should be removed or condensed in the weaker one.
+
+Give the verdict only after counting the problems.
+
+## Diff Format
+
+For each proposed edit, show:
+
+```
+Original:
+[original passage]
+
+Revised:
+[revised passage]
+
+Reason:
+[one sentence explaining the change: voice, clarity, continuity, specificity, redundancy, rhythm, or canon risk]
+```
+
+Do not bundle unrelated edits. One section means one coherent passage, subsection, or cultural entry.
+
+## Revision Philosophy
+
+Use minimal intervention. Preserve the author's structure, cadence, names, cultural logic, sentence order, and implied meaning unless a change directly improves clarity, continuity, voice, specificity, or force. Do not polish the prose into generic fantasy narration — do not make the writing smoother if smoothness weakens the document's existing rhythm or cultural edge.
+
+Do not rename cultures, places, factions, offices, gods, kinship terms, social systems, or regional concepts. If something appears inconsistent, flag it as a question instead of silently correcting it.
+
+## Approval Rule
+
+After showing the score and proposed diff, stop. Wait for approval before applying the edit.
+
+---
+
+# Required Sentence Test
+
+Before finalizing any output, reread every paragraph and ask:
+
+- Does each sentence mean something clear?
+- Does each sentence have a subject and verb?
+- Does the sentence explain a real relationship, action, custom, or consequence?
+- Would a reader understand what is happening without already knowing the canon?
+- Is the sentence trying to sound deep instead of saying something useful?
+- Does the sentence hide a list inside commas?
+- Does the sentence introduce a reference that is not explained?
+
+If a sentence fails any of these checks, rewrite it.
+
+# Final Check — Danger Signs
+
+Before finishing any rewrite, search for these danger signs and revise if any appear:
+
+- A sentence that is only a noun phrase.
+- A sentence with four or more objects in a row.
+- A sentence that has rhythm but no clear meaning.
+- A sentence using "weapon," "hook," "claim," "shadow," or "memory" as a shortcut instead of explaining the actual custom.
+- A sentence that sounds like a trailer line.
+- A sentence that makes the reader ask why something is true.
+- A paragraph that lists facts but does not connect them.
+- A section that explains politics but forgets household life.
+- A section that explains culture but forgets geography.
+- A Deyve passage (or any culture passage) that could be copied into a generic fantasy equivalent without change.
+
+---
+
+# Output Rules
+
+When the user asks for a full Rmd, output a full Rmd file. When the user asks for a small fix, output only the corrected passage. When the user asks for a prompt, output only the prompt. When the user asks for a comparison, use a table. When the user is angry, do not explain process — fix the specific issue or give the requested artifact. Do not output commentary unless the user asks for it.

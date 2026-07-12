@@ -15,7 +15,13 @@ When rules conflict, follow this order:
 6. Rhythm
 7. Sentence-level style rules
 
-## Core Rule
+## Core Rules
+
+Do not assign human thoughts, emotions, intentions, or agency to inanimate objects unless the object is canonically sentient or the passage is intentionally poetic. Describe what objects are or what they physically do, not what they feel, want, remember, welcome, accompany, wait for, or intend.
+
+Do not use personifications.
+
+Do not restate what the reader has already observed. Once the narration has shown something, trust the reader.
 
 Every sentence must be understandable on first reading. A good sentence says something concrete. It has a subject, a verb, and a clear purpose. It should not sound like notes disguised as prose, a fantasy trailer, or a slogan chain.
 

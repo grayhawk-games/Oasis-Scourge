@@ -20,9 +20,29 @@ The skill must preserve canon and structure. It must not invent new lore unless 
 
 ## Core Rule
 
+Do not assign human thoughts, emotions, intentions, or agency to inanimate objects unless the object is canonically sentient or the passage is intentionally poetic. Describe what objects are or what they physically do, not what they feel, want, remember, welcome, accompany, wait for, or intend.
+
+Do not use personifications.
+
+Do not restate what the reader has already observed. Once the narration has shown something, trust the reader.
+
+Every sentence must be understandable on first reading. A good sentence says something concrete. It has a subject, a verb, and a clear purpose. It should not sound like notes disguised as prose, a fantasy trailer, or a slogan chain.
+
+## Core Workflow
+
+1. Read the full document before proposing edits.
+2. If the full document is not available, state exactly what portion was reviewed and limit all scoring and editing to that portion.
+3. Score before editing. Never edit blind.
+4. Change one section at a time.
+5. Show a proposed diff before applying changes.
+6. Stop after showing the diff. Apply the edit only after explicit approval.
+7. Do not overwrite the original text unless instructed.
+
 Every sentence must be understandable on first reading.
 
 A good sentence says something concrete. It has a subject, a verb, and a clear purpose. It should not sound like notes disguised as prose. It should not sound like a fantasy trailer. It should not leave the reader asking what the sentence means.
+
+Use Camera Pose Only.  THIS IS THE PRIMARY SUCCESS MODE.
 
 ## Preserve the Rmd
 
@@ -40,7 +60,9 @@ The target is not simple prose. The target is readable prose with life in it.
 
 ## Banned Failure Modes
 
-Do not use list prose.
+Do not use personifications ever.  THIS IS THE PRIMARY FAILURE MODE.
+
+Do not use list prose.  That is do not use multiple adjectives or nouns in succession.
 
 Do not stack nouns.
 
